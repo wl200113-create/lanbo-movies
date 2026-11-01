@@ -1,0 +1,4 @@
+# 本地 git 忽略文件
+node_modules/
+Thumbs.db
+.DS_Store
