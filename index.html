@@ -1,0 +1,808 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Lanbo 影视基地 · 馆长精选</title>
+<style>
+  :root {
+    --paper: #f5f0e6;
+    --paper-2: #efe7d8;
+    --card: #fbf8f1;
+    --ink: #1d1a16;
+    --ink-soft: #57504a;
+    --ink-faint: #8a8177;
+    --red: #b3402a;
+    --red-soft: rgba(179, 64, 42, .1);
+    --gold: #a3762a;
+    --border: #ddd3c0;
+    --radius: 4px;
+    --serif: "Noto Serif SC", "Songti SC", "STSong", "SimSun", serif;
+    --sans: "PingFang SC", "Microsoft YaHei", system-ui, sans-serif;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    background: var(--paper);
+    color: var(--ink);
+    font-family: var(--sans);
+    background-image:
+      radial-gradient(rgba(29,26,22,.035) 1px, transparent 1px);
+    background-size: 22px 22px;
+  }
+  ::selection { background: var(--red); color: var(--paper); }
+
+  /* ===== 顶栏 ===== */
+  .topbar {
+    display: flex; align-items: center; justify-content: space-between;
+    padding: 0 28px;
+    height: 58px;
+    border-bottom: 1.5px solid var(--ink);
+    background: var(--paper);
+    position: sticky; top: 0; z-index: 50;
+  }
+  .brand {
+    font-family: var(--serif);
+    font-size: 20px;
+    font-weight: 900;
+    letter-spacing: 2px;
+    cursor: pointer;
+  }
+  .brand em { color: var(--red); font-style: normal; }
+  .nav { display: flex; gap: 4px; }
+  .nav button {
+    background: none; border: none;
+    font-family: var(--sans); font-size: 14px;
+    color: var(--ink-soft);
+    padding: 8px 14px;
+    cursor: pointer;
+    border-bottom: 2px solid transparent;
+    transition: all .2s;
+  }
+  .nav button:hover { color: var(--ink); }
+  .nav button.active { color: var(--red); border-bottom-color: var(--red); font-weight: 600; }
+  .nav .badge-count {
+    display: inline-block;
+    min-width: 18px; height: 18px;
+    line-height: 18px;
+    text-align: center;
+    background: var(--red); color: var(--paper);
+    border-radius: 999px;
+    font-size: 11px;
+    margin-left: 4px;
+    padding: 0 4px;
+  }
+
+  /* ===== 馆长寄语 Hero ===== */
+  .hero {
+    max-width: 1080px;
+    margin: 0 auto;
+    padding: 64px 28px 40px;
+    text-align: center;
+    position: relative;
+  }
+  .hero .stamp {
+    display: inline-block;
+    border: 2px solid var(--red);
+    color: var(--red);
+    padding: 4px 14px;
+    font-size: 12px;
+    letter-spacing: 6px;
+    transform: rotate(-2deg);
+    margin-bottom: 22px;
+    font-weight: 600;
+  }
+  .hero h1 {
+    font-family: var(--serif);
+    font-size: clamp(38px, 7vw, 64px);
+    font-weight: 900;
+    letter-spacing: 6px;
+    line-height: 1.2;
+  }
+  .hero h1 .accent { color: var(--red); }
+  .hero .motto {
+    margin-top: 18px;
+    font-family: var(--serif);
+    font-size: 16px;
+    color: var(--ink-soft);
+    font-style: italic;
+  }
+  .hero .curator-line {
+    margin-top: 14px;
+    font-size: 13px;
+    color: var(--ink-faint);
+  }
+  .hero .curator-line b { color: var(--ink-soft); }
+  .hero .rule {
+    width: 120px; height: 1.5px;
+    background: var(--ink);
+    margin: 28px auto 0;
+    position: relative;
+  }
+  .hero .rule::after {
+    content: "🎞";
+    position: absolute;
+    left: 50%; top: 50%;
+    transform: translate(-50%, -50%);
+    background: var(--paper);
+    padding: 0 10px;
+    font-size: 14px;
+  }
+
+  /* ===== 搜索区 ===== */
+  .search-area {
+    max-width: 680px;
+    margin: 8px auto 0;
+    padding: 0 28px;
+    text-align: center;
+  }
+  .search-box { position: relative; }
+  .search-box input {
+    width: 100%;
+    padding: 14px 20px 14px 48px;
+    background: var(--card);
+    border: 1.5px solid var(--ink);
+    border-radius: var(--radius);
+    color: var(--ink);
+    font-size: 15px;
+    font-family: var(--sans);
+    outline: none;
+    box-shadow: 4px 4px 0 rgba(29,26,22,.12);
+    transition: box-shadow .2s;
+  }
+  .search-box input:focus { box-shadow: 6px 6px 0 var(--red-soft), 4px 4px 0 rgba(29,26,22,.15); }
+  .search-box::before {
+    content: "🔍";
+    position: absolute; left: 18px; top: 50%;
+    transform: translateY(-50%);
+    opacity: .55;
+  }
+  .hot-kws {
+    margin-top: 12px;
+    font-size: 13px;
+    color: var(--ink-faint);
+  }
+  .hot-kws span { margin-right: 6px; }
+  .hot-kws button {
+    background: none;
+    border: none;
+    border-bottom: 1px dashed var(--ink-faint);
+    color: var(--ink-soft);
+    font-size: 13px;
+    cursor: pointer;
+    padding: 1px 2px;
+    margin: 0 4px;
+  }
+  .hot-kws button:hover { color: var(--red); border-bottom-color: var(--red); }
+
+  /* ===== 筛选栏 ===== */
+  .filterbar {
+    max-width: 1080px;
+    margin: 36px auto 0;
+    padding: 0 28px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px 18px;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .filter-group { display: flex; gap: 8px; flex-wrap: wrap; align-items: center; }
+  .filter-group .label {
+    font-size: 12px;
+    color: var(--ink-faint);
+    letter-spacing: 1px;
+    margin-right: 2px;
+  }
+  .chip {
+    padding: 6px 15px;
+    border: 1px solid var(--border);
+    border-radius: 999px;
+    background: transparent;
+    color: var(--ink-soft);
+    font-size: 13px;
+    cursor: pointer;
+    transition: all .2s;
+    font-family: var(--sans);
+  }
+  .chip:hover { border-color: var(--ink); color: var(--ink); }
+  .chip.active {
+    background: var(--ink);
+    border-color: var(--ink);
+    color: var(--paper);
+  }
+  .sort-select {
+    padding: 7px 12px;
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    color: var(--ink);
+    font-size: 13px;
+    cursor: pointer;
+    font-family: var(--sans);
+  }
+
+  /* ===== 主题片单（策展单元） ===== */
+  .section {
+    max-width: 1080px;
+    margin: 44px auto 0;
+    padding: 0 28px;
+  }
+  .section-head {
+    display: flex;
+    align-items: baseline;
+    gap: 14px;
+    border-bottom: 1.5px solid var(--ink);
+    padding-bottom: 10px;
+    margin-bottom: 22px;
+  }
+  .section-head h2 {
+    font-family: var(--serif);
+    font-size: 24px;
+    font-weight: 900;
+    letter-spacing: 3px;
+  }
+  .section-head .en {
+    font-size: 12px;
+    color: var(--ink-faint);
+    letter-spacing: 2px;
+    text-transform: uppercase;
+  }
+  .section-head .count {
+    margin-left: auto;
+    font-size: 12.5px;
+    color: var(--red);
+    font-weight: 600;
+  }
+
+  /* ===== 影片卡片（影票/场刊风） ===== */
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+    gap: 22px;
+  }
+  .card {
+    background: var(--card);
+    border: 1.5px solid var(--ink);
+    border-radius: var(--radius);
+    overflow: hidden;
+    cursor: pointer;
+    transition: transform .22s, box-shadow .22s;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    box-shadow: 3px 3px 0 rgba(29,26,22,.1);
+  }
+  .card:hover {
+    transform: translate(-2px, -4px);
+    box-shadow: 7px 7px 0 var(--red-soft), 5px 5px 0 rgba(29,26,22,.18);
+  }
+  .poster {
+    position: relative;
+    aspect-ratio: 3/2;
+    background:
+      linear-gradient(135deg, #2a241d 0%, #3d352b 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1.5px solid var(--ink);
+    overflow: hidden;
+  }
+  .poster img { width: 100%; height: 100%; object-fit: cover; }
+  .poster .fallback {
+    text-align: center;
+    color: var(--paper);
+    padding: 12px;
+  }
+  .poster .fallback .icon { font-size: 30px; display: block; margin-bottom: 8px; opacity: .8; }
+  .poster .fallback .t {
+    font-family: var(--serif);
+    font-size: 17px;
+    font-weight: 700;
+    letter-spacing: 2px;
+  }
+  .poster .ribbon {
+    position: absolute; top: 10px; left: -2px;
+    background: var(--red);
+    color: var(--paper);
+    font-size: 11.5px;
+    padding: 4px 12px;
+    letter-spacing: 1px;
+    box-shadow: 2px 2px 0 rgba(0,0,0,.2);
+  }
+  .poster .rating {
+    position: absolute; bottom: 10px; right: 10px;
+    background: var(--paper);
+    border: 1.5px solid var(--ink);
+    padding: 3px 10px;
+    font-size: 15px;
+    font-weight: 800;
+    color: var(--red);
+    font-family: var(--serif);
+  }
+  .card-body { padding: 14px 16px 14px; display: flex; flex-direction: column; gap: 8px; flex: 1; }
+  .card-oneline {
+    font-family: var(--serif);
+    font-size: 15.5px;
+    font-weight: 700;
+    line-height: 1.4;
+  }
+  .card-meta { font-size: 12px; color: var(--ink-faint); display: flex; flex-wrap: wrap; gap: 4px 8px; }
+  .card-note {
+    font-size: 12.5px;
+    color: var(--ink-soft);
+    line-height: 1.7;
+    border-left: 2.5px solid var(--gold);
+    padding-left: 9px;
+    font-style: italic;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+  .card-foot {
+    margin-top: auto;
+    padding-top: 10px;
+    border-top: 1px dashed var(--border);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 11.5px;
+    color: var(--ink-faint);
+  }
+  .want-btn {
+    background: none;
+    border: 1px solid var(--border);
+    border-radius: 999px;
+    padding: 4px 12px;
+    font-size: 12px;
+    color: var(--ink-soft);
+    cursor: pointer;
+    transition: all .2s;
+    font-family: var(--sans);
+  }
+  .want-btn:hover { border-color: var(--red); color: var(--red); }
+  .want-btn.wanted {
+    background: var(--red);
+    border-color: var(--red);
+    color: var(--paper);
+  }
+
+  /* ===== 空状态 ===== */
+  .empty {
+    text-align: center;
+    color: var(--ink-faint);
+    padding: 60px 20px;
+    font-size: 15px;
+    font-family: var(--serif);
+  }
+
+  /* ===== 详情弹窗（场刊页） ===== */
+  .modal-mask {
+    position: fixed; inset: 0;
+    background: rgba(29,26,22,.6);
+    backdrop-filter: blur(4px);
+    display: none;
+    align-items: center;
+    justify-content: center;
+    padding: 18px;
+    z-index: 100;
+  }
+  .modal-mask.open { display: flex; }
+  .modal {
+    background: var(--card);
+    border: 2px solid var(--ink);
+    border-radius: var(--radius);
+    max-width: 660px;
+    width: 100%;
+    max-height: 88vh;
+    overflow-y: auto;
+    padding: 34px 32px 30px;
+    position: relative;
+    box-shadow: 10px 10px 0 rgba(29,26,22,.25);
+    animation: pop .22s ease;
+  }
+  @keyframes pop { from { transform: translateY(12px); opacity: 0; } }
+  .modal .close {
+    position: absolute; top: 12px; right: 16px;
+    background: none; border: none;
+    color: var(--ink-faint);
+    font-size: 22px;
+    cursor: pointer;
+  }
+  .modal .close:hover { color: var(--red); }
+  .modal .m-stamp {
+    font-size: 11px;
+    letter-spacing: 3px;
+    color: var(--red);
+    border: 1px solid var(--red);
+    display: inline-block;
+    padding: 3px 10px;
+    margin-bottom: 12px;
+  }
+  .modal h2 {
+    font-family: var(--serif);
+    font-size: 28px;
+    font-weight: 900;
+    letter-spacing: 2px;
+  }
+  .modal .orig { color: var(--ink-faint); font-size: 13px; margin-top: 4px; }
+  .modal .rating-line {
+    display: flex; align-items: baseline; gap: 12px;
+    margin: 14px 0;
+    padding: 12px 0;
+    border-top: 1.5px solid var(--ink);
+    border-bottom: 1.5px solid var(--ink);
+  }
+  .modal .score { font-size: 36px; font-weight: 900; color: var(--red); font-family: var(--serif); }
+  .modal .count { font-size: 12.5px; color: var(--ink-faint); }
+  .modal .series-tag {
+    margin-left: auto;
+    font-size: 12px;
+    color: var(--gold);
+    border: 1px dashed var(--gold);
+    padding: 4px 10px;
+  }
+  .modal dl { display: grid; grid-template-columns: 68px 1fr; gap: 8px 14px; font-size: 14px; margin-bottom: 6px; }
+  .modal dt { color: var(--ink-faint); }
+  .modal .section-title {
+    font-family: var(--serif);
+    font-size: 15px; font-weight: 900;
+    color: var(--ink);
+    margin: 18px 0 8px;
+    letter-spacing: 2px;
+  }
+  .modal .section-title::before { content: "▍"; color: var(--red); }
+  .modal .section-text { font-size: 14px; line-height: 1.9; }
+  .modal .curator-quote {
+    background: var(--paper-2);
+    border-left: 3px solid var(--gold);
+    padding: 12px 16px;
+    font-family: var(--serif);
+    font-style: italic;
+    font-size: 14.5px;
+    line-height: 1.8;
+    color: var(--ink-soft);
+  }
+  .modal .platforms span {
+    display: inline-block;
+    margin: 4px 8px 0 0;
+    padding: 4px 13px;
+    border: 1px solid var(--border);
+    font-size: 12.5px;
+    color: var(--ink-soft);
+  }
+  .modal .m-want {
+    margin-top: 20px;
+    width: 100%;
+    padding: 13px;
+    background: var(--ink);
+    color: var(--paper);
+    border: none;
+    font-size: 15px;
+    letter-spacing: 3px;
+    cursor: pointer;
+    font-family: var(--sans);
+    transition: background .2s;
+  }
+  .modal .m-want:hover { background: var(--red); }
+  .modal .m-want.wanted { background: var(--red); }
+
+  /* ===== 地区浏览 ===== */
+  .region-row { display: flex; gap: 8px; flex-wrap: wrap; }
+
+  footer {
+    margin-top: 70px;
+    border-top: 1.5px solid var(--ink);
+    padding: 30px 28px 40px;
+    text-align: center;
+    color: var(--ink-faint);
+    font-size: 12.5px;
+    line-height: 2.1;
+  }
+  footer .f-brand {
+    font-family: var(--serif);
+    font-size: 17px;
+    font-weight: 900;
+    letter-spacing: 4px;
+    color: var(--ink);
+  }
+  footer .upd { color: var(--red); }
+
+  @media (max-width: 640px) {
+    .nav button { padding: 8px 8px; font-size: 13px; }
+    .hero { padding: 44px 20px 30px; }
+    .grid { grid-template-columns: 1fr 1fr; gap: 14px; }
+    .card-oneline { font-size: 14px; }
+    .modal { padding: 26px 20px; }
+  }
+  @media (max-width: 420px) {
+    .grid { grid-template-columns: 1fr; }
+  }
+</style>
+</head>
+<body>
+
+<header class="topbar">
+  <div class="brand" onclick="location.reload()">Lanbo<em>·</em>影视基地</div>
+  <nav class="nav">
+    <button data-view="home" class="active">展映广场</button>
+    <button data-view="mylist">我的片单<span class="badge-count" id="wantBadge" style="display:none">0</span></button>
+  </nav>
+</header>
+
+<section class="hero">
+  <div class="stamp">馆长精选 · CURATED</div>
+  <h1>只收藏<span class="accent">值得</span>的影像</h1>
+  <p class="motto" id="motto">「只收藏值得花两小时的好片子。」</p>
+  <p class="curator-line">策展人 <b id="curatorName">Lanbo</b> · <span id="curatorTitle">馆长</span> · 豆瓣 ≥ 7.3 分准入 · 每日 8:00 / 13:00 / 18:00 更新</p>
+  <div class="rule"></div>
+</section>
+
+<div class="search-area">
+  <div class="search-box">
+    <input id="search" type="text" placeholder="搜索片名 / 演员 / 导演…">
+  </div>
+  <div class="hot-kws" id="hotKws"></div>
+</div>
+
+<div class="filterbar">
+  <div class="filter-group">
+    <span class="label">类型</span>
+    <div class="filter-group" id="typeFilters">
+      <button class="chip active" data-type="all">全部</button>
+      <button class="chip" data-type="movie">电影</button>
+      <button class="chip" data-type="tv">剧集</button>
+    </div>
+  </div>
+  <div class="filter-group">
+    <span class="label">地区</span>
+    <div class="region-row" id="regionFilters">
+      <button class="chip active" data-region="all">全部</button>
+      <button class="chip" data-region="华语">华语</button>
+      <button class="chip" data-region="欧美">欧美</button>
+      <button class="chip" data-region="日韩">日韩</button>
+      <button class="chip" data-region="其他">其他</button>
+    </div>
+  </div>
+  <select class="sort-select" id="sort">
+    <option value="rating">按评分排序</option>
+    <option value="year">按年份排序</option>
+    <option value="want">按想看人数</option>
+  </select>
+</div>
+
+<main id="main"></main>
+
+<div class="modal-mask" id="mask">
+  <div class="modal" id="modal"></div>
+</div>
+
+<footer>
+  <div class="f-brand">Lanbo·影视基地</div>
+  <div>Cinema of Our Own · 准入标准：豆瓣评分 ≥ 7.3 且评分人数 ≥ 5000</div>
+  <div class="upd" id="updatedAt">数据加载中…</div>
+</footer>
+
+<script>
+let DATA = { movies: [], updatedAt: null, hotKeywords: [] };
+let state = { view: 'home', type: 'all', region: 'all', keyword: '', sort: 'rating' };
+let wanted = new Set(JSON.parse(localStorage.getItem('lanbo_wanted') || '[]'));
+
+const main = document.getElementById('main');
+const mask = document.getElementById('mask');
+const modal = document.getElementById('modal');
+
+fetch('data/movies.json?_=' + Date.now())
+  .then(r => r.json())
+  .then(d => {
+    DATA = d;
+    if (d.curator) {
+      document.getElementById('motto').textContent = '「' + d.curator.motto + '」';
+      document.getElementById('curatorName').textContent = d.curator.name;
+      document.getElementById('curatorTitle').textContent = d.curator.title;
+    }
+    const t = new Date(d.updatedAt);
+    document.getElementById('updatedAt').textContent =
+      '本期场刊更新于 ' + t.toLocaleString('zh-CN', { hour12: false }) + (d.source === 'seed' ? '（示例数据）' : '');
+    renderHotKws();
+    updateBadge();
+    render();
+  })
+  .catch(() => {
+    main.innerHTML = '<div class="empty">场刊数据加载失败<br>请确认 data/movies.json 存在（需本地服务器打开）</div>';
+  });
+
+function esc(s) {
+  return String(s ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+}
+
+function renderHotKws() {
+  const box = document.getElementById('hotKws');
+  const kws = DATA.hotKeywords || [];
+  if (!kws.length) return;
+  box.innerHTML = '<span>试试：</span>' + kws.map(k => `<button data-kw="${esc(k)}">${esc(k)}</button>`).join('');
+  box.querySelectorAll('button').forEach(b => b.onclick = () => {
+    document.getElementById('search').value = b.dataset.kw;
+    state.keyword = b.dataset.kw;
+    render();
+  });
+}
+
+function updateBadge() {
+  const b = document.getElementById('wantBadge');
+  b.style.display = wanted.size ? 'inline-block' : 'none';
+  b.textContent = wanted.size;
+}
+
+function toggleWant(id, ev) {
+  if (ev) ev.stopPropagation();
+  wanted.has(id) ? wanted.delete(id) : wanted.add(id);
+  localStorage.setItem('lanbo_wanted', JSON.stringify([...wanted]));
+  updateBadge();
+  render();
+}
+
+function passes(m) {
+  if (state.type !== 'all' && m.type !== state.type) return false;
+  if (state.region !== 'all' && (m.regionGroup || '其他') !== state.region) return false;
+  if (state.keyword) {
+    const k = state.keyword.toLowerCase();
+    const hay = [m.title, m.originalTitle, (m.casts||[]).join(','), (m.directors||[]).join(','), (m.genres||[]).join(','), m.series, m.platforms?.join(',')].join('|').toLowerCase();
+    if (!hay.includes(k)) return false;
+  }
+  return true;
+}
+
+function sortList(list) {
+  const s = {
+    rating: (a,b) => b.rating - a.rating,
+    year: (a,b) => (b.year||0) - (a.year||0),
+    want: (a,b) => (b.wantCount||0) - (a.wantCount||0),
+  }[state.sort];
+  return [...list].sort(s);
+}
+
+function cardHTML(m) {
+  const isW = wanted.has(m.id);
+  return `
+  <article class="card" data-id="${esc(m.id)}">
+    <div class="poster">
+      ${m.poster
+        ? `<img src="${esc(m.poster)}" alt="${esc(m.title)}" loading="lazy" referrerpolicy="no-referrer">`
+        : `<div class="fallback"><span class="icon">${m.type === 'tv' ? '📺' : '🎬'}</span><span class="t">${esc(m.title)}</span></div>`}
+      ${m.tag ? `<span class="ribbon">${esc(m.tag)}</span>` : ''}
+      <span class="rating">${m.rating.toFixed(1)}</span>
+    </div>
+    <div class="card-body">
+      <div class="card-oneline">${esc(m.oneLine || m.title)}</div>
+      <div class="card-meta">
+        <span>《${esc(m.title)}》</span>
+        <span>${esc(m.year ?? '')}</span>
+        <span>${esc(m.regionGroup || m.region)}</span>
+        <span>${m.type === 'tv' ? esc(m.episodes || '剧集') : esc(m.duration)}</span>
+      </div>
+      ${m.curatorNote ? `<div class="card-note">馆长说：${esc(m.curatorNote)}</div>` : ''}
+      <div class="card-foot">
+        <span>${(m.wantCount||0) + (isW ? 1 : 0)} 人想看</span>
+        <button class="want-btn ${isW ? 'wanted' : ''}" data-want="${esc(m.id)}">${isW ? '♥ 已想看' : '♡ 想看'}</button>
+      </div>
+    </div>
+  </article>`;
+}
+
+function sectionHTML(title, en, list) {
+  if (!list.length) return '';
+  return `
+  <section class="section">
+    <div class="section-head">
+      <h2>${esc(title)}</h2>
+      <span class="en">${esc(en)}</span>
+      <span class="count">${list.length} 部</span>
+    </div>
+    <div class="grid">${list.map(cardHTML).join('')}</div>
+  </section>`;
+}
+
+function render() {
+  const base = DATA.movies.filter(passes);
+
+  if (state.view === 'mylist') {
+    const mine = sortList(base.filter(m => wanted.has(m.id)));
+    main.innerHTML = mine.length
+      ? sectionHTML('我的片单', 'My Watchlist', mine)
+      : '<div class="empty">片单还空着呢<br>去展映广场给喜欢的影片点「想看」吧 🎞</div>';
+  } else {
+    const isFiltering = state.keyword || state.type !== 'all' || state.region !== 'all';
+    if (isFiltering) {
+      const list = sortList(base);
+      main.innerHTML = list.length
+        ? sectionHTML('检索结果', 'Search Results', list)
+        : '<div class="empty">没有找到符合条件的影片<br>换个关键词试试？</div>';
+    } else {
+      const hot = sortList(base.filter(m => m.listTag === 'hot'));
+      const classic = sortList(base.filter(m => m.listTag !== 'hot'));
+      main.innerHTML =
+        sectionHTML('正在热映 · 热播', 'Now Showing', hot) +
+        sectionHTML('馆藏经典', 'Classics Collection', classic);
+    }
+  }
+
+  main.querySelectorAll('.card').forEach(c =>
+    c.addEventListener('click', () => openModal(c.dataset.id))
+  );
+  main.querySelectorAll('[data-want]').forEach(b =>
+    b.addEventListener('click', ev => toggleWant(b.dataset.want, ev))
+  );
+}
+
+function openModal(id) {
+  const m = DATA.movies.find(x => x.id === id);
+  if (!m) return;
+  const isW = wanted.has(m.id);
+  modal.innerHTML = `
+    <button class="close" id="closeBtn">✕</button>
+    <div class="m-stamp">LANBO 馆藏书目 · NO.${esc(String(m.id).slice(-4).toUpperCase())}</div>
+    <h2>${esc(m.title)}</h2>
+    ${m.originalTitle ? `<div class="orig">${esc(m.originalTitle)}</div>` : ''}
+    <div class="rating-line">
+      <span class="score">${m.rating.toFixed(1)}</span>
+      <span class="count">豆瓣 · ${(m.ratingCount||0) >= 10000 ? ((m.ratingCount/10000).toFixed(1)+'万') : m.ratingCount} 人评分<br>${(m.wantCount||0)} 人想看</span>
+      ${m.series ? `<span class="series-tag">🎞 ${esc(m.series)}</span>` : ''}
+    </div>
+    <dl>
+      ${m.year ? `<dt>年份</dt><dd>${esc(m.year)}</dd>` : ''}
+      ${m.region ? `<dt>地区</dt><dd>${esc(m.region)}</dd>` : ''}
+      ${m.genres?.length ? `<dt>类型</dt><dd>${esc(m.genres.join(' / '))}</dd>` : ''}
+      ${m.type === 'movie' && m.duration ? `<dt>片长</dt><dd>${esc(m.duration)}</dd>` : ''}
+      ${m.type === 'tv' && m.episodes ? `<dt>集数</dt><dd>${esc(m.episodes)}${m.episodeDuration ? '（' + esc(m.episodeDuration) + '）' : ''}</dd>` : ''}
+      ${m.status ? `<dt>状态</dt><dd>${esc(m.status)}</dd>` : ''}
+      <dt>导演</dt><dd>${esc((m.directors||[]).join(' / ') || '未知')}</dd>
+      <dt>主演</dt><dd>${esc((m.casts||[]).join(' / ') || '未知')}</dd>
+    </dl>
+    ${m.curatorNote ? `<div class="section-title">馆长荐语</div><div class="curator-quote">「${esc(m.curatorNote)}」</div>` : ''}
+    ${m.summary ? `<div class="section-title">剧情简介</div><div class="section-text">${esc(m.summary)}</div>` : ''}
+    ${m.highlights ? `<div class="section-title">无剧透看点</div><div class="section-text">${esc(m.highlights)}</div>` : ''}
+    ${m.audience ? `<div class="section-title">适合人群</div><div class="section-text">${esc(m.audience)}</div>` : ''}
+    <div class="section-title">观看渠道</div>
+    <div class="platforms">${(m.platforms && m.platforms.length) ? m.platforms.map(p => `<span>${esc(p)}</span>`).join('') : '<span>暂无数据</span>'}</div>
+    <button class="m-want ${isW ? 'wanted' : ''}" id="mWantBtn">${isW ? '♥ 已加入我的片单' : '♡ 加入我的片单'}</button>
+  `;
+  mask.classList.add('open');
+  document.getElementById('closeBtn').onclick = () => mask.classList.remove('open');
+  document.getElementById('mWantBtn').onclick = () => { toggleWant(m.id); mask.classList.remove('open'); };
+}
+
+mask.addEventListener('click', e => { if (e.target === mask) mask.classList.remove('open'); });
+document.addEventListener('keydown', e => { if (e.key === 'Escape') mask.classList.remove('open'); });
+
+document.getElementById('search').addEventListener('input', e => {
+  state.keyword = e.target.value.trim();
+  render();
+});
+document.getElementById('typeFilters').addEventListener('click', e => {
+  const btn = e.target.closest('.chip'); if (!btn) return;
+  document.querySelectorAll('#typeFilters .chip').forEach(c => c.classList.remove('active'));
+  btn.classList.add('active');
+  state.type = btn.dataset.type;
+  render();
+});
+document.getElementById('regionFilters').addEventListener('click', e => {
+  const btn = e.target.closest('.chip'); if (!btn) return;
+  document.querySelectorAll('#regionFilters .chip').forEach(c => c.classList.remove('active'));
+  btn.classList.add('active');
+  state.region = btn.dataset.region;
+  render();
+});
+document.getElementById('sort').addEventListener('change', e => {
+  state.sort = e.target.value;
+  render();
+});
+document.querySelector('.nav').addEventListener('click', e => {
+  const btn = e.target.closest('button'); if (!btn) return;
+  document.querySelectorAll('.nav button').forEach(b => b.classList.remove('active'));
+  btn.classList.add('active');
+  state.view = btn.dataset.view;
+  render();
+});
+</script>
+</body>
+</html>
