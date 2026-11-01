@@ -14,26 +14,24 @@ const MIN_RATING = 7.3;
 const MIN_RATING_COUNT = 5000; // 评分人数下限，过滤冷门片
 
 // 非官方豆瓣数据接口（随时可能失效，脚本已做容错兜底）
+// unit: now=正在热映/热播；classic=馆藏经典/佳片
 const SOURCES = [
-  {
-    name: '热映电影',
-    key: 'movie_showing',
-    url: 'https://m.douban.com/rexxar/api/v2/subject_collection/movie_showing/items?start=0&count=30',
-    type: 'movie',
-  },
-  {
-    name: '热门剧集',
-    key: 'tv_hot',
-    url: 'https://m.douban.com/rexxar/api/v2/subject_collection/tv_hot/items?start=0&count=30',
-    type: 'tv',
-  },
-  {
-    name: '热门国产剧',
-    key: 'tv_domestic',
-    url: 'https://m.douban.com/rexxar/api/v2/subject_collection/tv_domestic/items?start=0&count=20',
-    type: 'tv',
-  },
-];
+  { name: '正在热映', key: 'movie_showing', unit: 'now', type: 'movie', count: 30 },
+  { name: '即将上映', key: 'movie_soon', unit: 'now', type: 'movie', count: 20 },
+  { name: '豆瓣电影 Top250', key: 'movie_top250', unit: 'classic', type: 'movie', count: 50 },
+  { name: '一周口碑榜', key: 'movie_weekly_best', unit: 'classic', type: 'movie', count: 20 },
+  { name: '热门剧集', key: 'tv_hot', unit: 'now', type: 'tv', count: 40 },
+  { name: '国产剧', key: 'tv_domestic', unit: 'now', type: 'tv', count: 40 },
+  { name: '美剧', key: 'tv_american', unit: 'now', type: 'tv', count: 30 },
+  { name: '日剧', key: 'tv_japanese', unit: 'classic', type: 'tv', count: 30 },
+  { name: '韩剧', key: 'tv_korean', unit: 'classic', type: 'tv', count: 30 },
+  { name: '纪录片', key: 'tv_documentary', unit: 'classic', type: 'tv', count: 25 },
+  { name: '综艺', key: 'tv_variety_show', unit: 'now', type: 'tv', count: 25 },
+  { name: '动画', key: 'tv_animation', unit: 'classic', type: 'tv', count: 25 },
+].map(s => ({
+  ...s,
+  url: `https://m.douban.com/rexxar/api/v2/subject_collection/${s.key}/items?start=0&count=${s.count}`,
+}));
 
 const HEADERS = {
   'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0 Safari/537.36',
@@ -74,9 +72,10 @@ function names(list) {
   return (list || []).map(x => (typeof x === 'string' ? x : x?.name)).filter(Boolean);
 }
 
-// 角标分级：每部片最多一个，按优先级取（空字符串 = 不显示角标）
+// 角标分级：只给"正在热映/热播"单元打角标（经典单元本身已是 Top250，再打标就是噪音）
 // 🏆 神作(>=9.0) > ⭐ 高分佳作(>=8.5) > 📺 热播剧集 > 📈 黑马飙升(评分人数<3万)
-function badgeOf({ rating, ratingCount, year, type, sourceKey }) {
+function badgeOf({ rating, ratingCount, year, type, sourceKey, unit }) {
+  if (unit !== 'now') return '';
   if (rating >= 9.0) return '🏆 神作';
   if (rating >= 8.5) return '⭐ 高分佳作';
   if (type === 'tv') return '📺 热播剧集';
@@ -84,7 +83,7 @@ function badgeOf({ rating, ratingCount, year, type, sourceKey }) {
   return '';
 }
 
-function mapItem(item, type, sourceKey) {
+function mapItem(item, type, sourceKey, unit) {
   const rating = item.rating?.value ?? 0;
   const ratingCount = item.rating?.count ?? 0;
   const sub = parseSubtitle(item.card_subtitle || '');
@@ -114,8 +113,8 @@ function mapItem(item, type, sourceKey) {
     summary: item.comment || (subIsSummary ? item.card_subtitle : '') || '',
     highlights: '', // AI 看点由本地补充，抓取数据不含
     audience: '',
-    tag: badgeOf({ rating, ratingCount, year, type, sourceKey }),
-    listTag: sourceKey === 'movie_showing' || sourceKey === 'tv_hot' ? 'hot' : 'classic',
+    tag: badgeOf({ rating, ratingCount, year, type, sourceKey, unit }),
+    listTag: unit === 'now' ? 'hot' : 'classic',
     curatorNote: '',
     series: '',
     wantCount: 0,
@@ -133,7 +132,7 @@ async function fetchSource(src) {
   if (!res.ok) throw new Error(`${src.name} HTTP ${res.status}`);
   const json = await res.json();
   const items = json.subject_collection_items || [];
-  return items.map(i => mapItem(i, src.type, src.key)).filter(isQualified);
+  return items.map(i => mapItem(i, src.type, src.key, src.unit)).filter(isQualified);
 }
 
 // 豆瓣图床有防盗链：不带豆瓣 Referer 会返回 418 + 占位图，浏览器无法伪造 Referer，
@@ -201,10 +200,15 @@ async function main() {
     process.exit(0);
   }
 
-  // 去重（按豆瓣 id）
+  // 去重（按豆瓣 id）：保留评分人数更多的条目，但只要有任一榜单属于"正在热映/热播"就归入 hot
+  const hotIds = new Set(results.filter(m => m.listTag === 'hot').map(m => m.id));
   const seen = new Map();
   for (const m of results) {
-    if (!seen.has(m.id) || (seen.get(m.id).ratingCount < m.ratingCount)) seen.set(m.id, m);
+    const cur = seen.get(m.id);
+    if (!cur || cur.ratingCount < m.ratingCount) seen.set(m.id, m);
+  }
+  for (const m of seen.values()) {
+    m.listTag = hotIds.has(m.id) ? 'hot' : 'classic';
   }
   // 与旧数据合并：保留旧条目里的人工策展字段
   const oldMap = new Map(old.movies.map(m => [m.id, m]));
@@ -219,11 +223,11 @@ async function main() {
     }
   }
 
-  // 下载海报到本地（并发 4，避免打太快）
+  // 下载海报到本地（并发 6，避免打太快）
   const list = [...seen.values()];
   console.log(`🖼  开始下载 ${list.length} 张海报…`);
   let cursor = 0;
-  await Promise.all(Array.from({ length: 4 }, async () => {
+  await Promise.all(Array.from({ length: 6 }, async () => {
     while (cursor < list.length) {
       await downloadPoster(list[cursor++]);
     }

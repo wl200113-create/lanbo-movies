@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-01T07:20:57.343Z",
+  "updatedAt": "2026-11-01T07:26:27.348Z",
   "source": "douban-mirror",
   "minRating": 7.3,
   "curator": {
@@ -17,6 +17,1994 @@
   ],
   "movies": [
     {
+      "id": "db1292052",
+      "doubanId": "1292052",
+      "title": "肖申克的救赎",
+      "originalTitle": "",
+      "type": "movie",
+      "genres": [
+        "剧情",
+        "犯罪"
+      ],
+      "year": 1994,
+      "region": "美国",
+      "regionGroup": "欧美",
+      "language": "",
+      "rating": 9.7,
+      "ratingCount": 3361223,
+      "directors": [
+        "弗兰克·德拉邦特"
+      ],
+      "casts": [
+        "蒂姆·罗宾斯",
+        "摩根·弗里曼"
+      ],
+      "duration": "",
+      "episodes": "",
+      "status": "",
+      "poster": "assets/posters/1292052.jpg",
+      "summary": "",
+      "highlights": "",
+      "audience": "",
+      "tag": "",
+      "listTag": "classic",
+      "curatorNote": "",
+      "series": "",
+      "wantCount": 0,
+      "oneLine": "",
+      "platforms": []
+    },
+    {
+      "id": "db1291546",
+      "doubanId": "1291546",
+      "title": "霸王别姬",
+      "originalTitle": "",
+      "type": "movie",
+      "genres": [
+        "剧情",
+        "爱情",
+        "同性"
+      ],
+      "year": 1993,
+      "region": "中国大陆 中国香港",
+      "regionGroup": "华语",
+      "language": "",
+      "rating": 9.6,
+      "ratingCount": 2463054,
+      "directors": [
+        "陈凯歌"
+      ],
+      "casts": [
+        "张国荣",
+        "张丰毅"
+      ],
+      "duration": "",
+      "episodes": "",
+      "status": "",
+      "poster": "assets/posters/1291546.jpg",
+      "summary": "",
+      "highlights": "",
+      "audience": "",
+      "tag": "",
+      "listTag": "classic",
+      "curatorNote": "",
+      "series": "",
+      "wantCount": 0,
+      "oneLine": "",
+      "platforms": []
+    },
+    {
+      "id": "db1296141",
+      "doubanId": "1296141",
+      "title": "控方证人",
+      "originalTitle": "",
+      "type": "movie",
+      "genres": [
+        "剧情",
+        "悬疑",
+        "惊悚",
+        "犯罪"
+      ],
+      "year": 1957,
+      "region": "美国",
+      "regionGroup": "欧美",
+      "language": "",
+      "rating": 9.6,
+      "ratingCount": 767534,
+      "directors": [
+        "比利·怀尔德"
+      ],
+      "casts": [
+        "泰隆·鲍华",
+        "玛琳·黛德丽"
+      ],
+      "duration": "",
+      "episodes": "",
+      "status": "",
+      "poster": "assets/posters/1296141.jpg",
+      "summary": "",
+      "highlights": "",
+      "audience": "",
+      "tag": "",
+      "listTag": "classic",
+      "curatorNote": "",
+      "series": "",
+      "wantCount": 0,
+      "oneLine": "",
+      "platforms": []
+    },
+    {
+      "id": "db37303191",
+      "doubanId": "37303191",
+      "title": "克拉克森的农场 第五季",
+      "originalTitle": "",
+      "type": "tv",
+      "genres": [
+        "喜剧",
+        "纪录片",
+        "真人秀"
+      ],
+      "year": 2026,
+      "region": "英国",
+      "regionGroup": "欧美",
+      "language": "",
+      "rating": 9.6,
+      "ratingCount": 16913,
+      "directors": [
+        "杰里米·克拉克森",
+        "凯勒布·库珀"
+      ],
+      "casts": [],
+      "duration": "",
+      "episodes": "",
+      "status": "",
+      "poster": "assets/posters/37303191.jpg",
+      "summary": "回归之际，一项引发英国农业社区强烈反弹的政府预算出台，杰里米决定进行一些重大调整，让农场运转得更加顺畅。然而，尽管作物开始采用高科技种植方式，也添置了最前沿的新设备，但对于\"迪丽斯库阿特农场2.0\"而言，更大的变化逐步到来，而这些变化也将带来更加严峻的挑战。",
+      "highlights": "",
+      "audience": "",
+      "tag": "🏆 神作",
+      "listTag": "hot",
+      "curatorNote": "",
+      "series": "",
+      "wantCount": 0,
+      "oneLine": "",
+      "platforms": []
+    },
+    {
+      "id": "db1292722",
+      "doubanId": "1292722",
+      "title": "泰坦尼克号",
+      "originalTitle": "",
+      "type": "movie",
+      "genres": [
+        "剧情",
+        "爱情",
+        "灾难"
+      ],
+      "year": 1997,
+      "region": "美国",
+      "regionGroup": "欧美",
+      "language": "",
+      "rating": 9.5,
+      "ratingCount": 2540653,
+      "directors": [
+        "詹姆斯·卡梅隆"
+      ],
+      "casts": [
+        "莱昂纳多·迪卡普里奥",
+        "凯特·温斯莱特"
+      ],
+      "duration": "",
+      "episodes": "",
+      "status": "",
+      "poster": "assets/posters/1292722.jpg",
+      "summary": "",
+      "highlights": "",
+      "audience": "",
+      "tag": "",
+      "listTag": "classic",
+      "curatorNote": "",
+      "series": "",
+      "wantCount": 0,
+      "oneLine": "",
+      "platforms": []
+    },
+    {
+      "id": "db1292720",
+      "doubanId": "1292720",
+      "title": "阿甘正传",
+      "originalTitle": "",
+      "type": "movie",
+      "genres": [
+        "剧情",
+        "爱情"
+      ],
+      "year": 1994,
+      "region": "美国",
+      "regionGroup": "欧美",
+      "language": "",
+      "rating": 9.5,
+      "ratingCount": 2466587,
+      "directors": [
+        "罗伯特·泽米吉斯"
+      ],
+      "casts": [
+        "汤姆·汉克斯",
+        "罗宾·怀特"
+      ],
+      "duration": "",
+      "episodes": "",
+      "status": "",
+      "poster": "assets/posters/1292720.jpg",
+      "summary": "",
+      "highlights": "",
+      "audience": "",
+      "tag": "",
+      "listTag": "classic",
+      "curatorNote": "",
+      "series": "",
+      "wantCount": 0,
+      "oneLine": "",
+      "platforms": []
+    },
+    {
+      "id": "db1292063",
+      "doubanId": "1292063",
+      "title": "美丽人生",
+      "originalTitle": "",
+      "type": "movie",
+      "genres": [
+        "剧情",
+        "喜剧",
+        "爱情",
+        "战争"
+      ],
+      "year": 1997,
+      "region": "意大利",
+      "regionGroup": "欧美",
+      "language": "",
+      "rating": 9.5,
+      "ratingCount": 1504077,
+      "directors": [
+        "罗伯托·贝尼尼"
+      ],
+      "casts": [
+        "罗伯托·贝尼尼",
+        "尼可莱塔·布拉斯基"
+      ],
+      "duration": "",
+      "episodes": "",
+      "status": "",
+      "poster": "assets/posters/1292063.jpg",
+      "summary": "",
+      "highlights": "",
+      "audience": "",
+      "tag": "",
+      "listTag": "classic",
+      "curatorNote": "",
+      "series": "",
+      "wantCount": 0,
+      "oneLine": "",
+      "platforms": []
+    },
+    {
+      "id": "db1295124",
+      "doubanId": "1295124",
+      "title": "辛德勒的名单",
+      "originalTitle": "",
+      "type": "movie",
+      "genres": [
+        "剧情",
+        "历史",
+        "战争"
+      ],
+      "year": 1993,
+      "region": "美国",
+      "regionGroup": "欧美",
+      "language": "",
+      "rating": 9.5,
+      "ratingCount": 1264978,
+      "directors": [
+        "史蒂文·斯皮尔伯格"
+      ],
+      "casts": [
+        "连姆·尼森",
+        "本·金斯利"
+      ],
+      "duration": "",
+      "episodes": "",
+      "status": "",
+      "poster": "assets/posters/1295124.jpg",
+      "summary": "",
+      "highlights": "",
+      "audience": "",
+      "tag": "",
+      "listTag": "classic",
+      "curatorNote": "",
+      "series": "",
+      "wantCount": 0,
+      "oneLine": "",
+      "platforms": []
+    },
+    {
+      "id": "db1291561",
+      "doubanId": "1291561",
+      "title": "千与千寻",
+      "originalTitle": "",
+      "type": "movie",
+      "genres": [
+        "剧情",
+        "动画",
+        "奇幻"
+      ],
+      "year": 2001,
+      "region": "日本",
+      "regionGroup": "日韩",
+      "language": "",
+      "rating": 9.4,
+      "ratingCount": 2579187,
+      "directors": [
+        "宫崎骏"
+      ],
+      "casts": [
+        "柊瑠美",
+        "入野自由"
+      ],
+      "duration": "",
+      "episodes": "",
+      "status": "",
+      "poster": "assets/posters/1291561.jpg",
+      "summary": "",
+      "highlights": "",
+      "audience": "",
+      "tag": "",
+      "listTag": "classic",
+      "curatorNote": "",
+      "series": "",
+      "wantCount": 0,
+      "oneLine": "",
+      "platforms": []
+    },
+    {
+      "id": "db1889243",
+      "doubanId": "1889243",
+      "title": "星际穿越",
+      "originalTitle": "",
+      "type": "movie",
+      "genres": [
+        "剧情",
+        "科幻",
+        "冒险"
+      ],
+      "year": 2014,
+      "region": "美国 英国 加拿大",
+      "regionGroup": "欧美",
+      "language": "",
+      "rating": 9.4,
+      "ratingCount": 2237178,
+      "directors": [
+        "克里斯托弗·诺兰"
+      ],
+      "casts": [
+        "马修·麦康纳",
+        "安妮·海瑟薇"
+      ],
+      "duration": "",
+      "episodes": "",
+      "status": "",
+      "poster": "assets/posters/1889243.jpg",
+      "summary": "",
+      "highlights": "",
+      "audience": "",
+      "tag": "",
+      "listTag": "classic",
+      "curatorNote": "",
+      "series": "",
+      "wantCount": 0,
+      "oneLine": "",
+      "platforms": []
+    },
+    {
+      "id": "db1295644",
+      "doubanId": "1295644",
+      "title": "这个杀手不太冷",
+      "originalTitle": "",
+      "type": "movie",
+      "genres": [
+        "剧情",
+        "动作",
+        "犯罪"
+      ],
+      "year": 1994,
+      "region": "法国 美国",
+      "regionGroup": "欧美",
+      "language": "",
+      "rating": 9.4,
+      "ratingCount": 2585091,
+      "directors": [
+        "吕克·贝松"
+      ],
+      "casts": [
+        "让·雷诺",
+        "娜塔莉·波特曼"
+      ],
+      "duration": "",
+      "episodes": "",
+      "status": "",
+      "poster": "assets/posters/1295644.jpg",
+      "summary": "",
+      "highlights": "",
+      "audience": "",
+      "tag": "",
+      "listTag": "classic",
+      "curatorNote": "",
+      "series": "",
+      "wantCount": 0,
+      "oneLine": "",
+      "platforms": []
+    },
+    {
+      "id": "db3541415",
+      "doubanId": "3541415",
+      "title": "盗梦空间",
+      "originalTitle": "",
+      "type": "movie",
+      "genres": [
+        "剧情",
+        "科幻",
+        "悬疑",
+        "冒险"
+      ],
+      "year": 2010,
+      "region": "美国 英国",
+      "regionGroup": "欧美",
+      "language": "",
+      "rating": 9.4,
+      "ratingCount": 2366177,
+      "directors": [
+        "克里斯托弗·诺兰"
+      ],
+      "casts": [
+        "莱昂纳多·迪卡普里奥",
+        "约瑟夫·高登-莱维特"
+      ],
+      "duration": "",
+      "episodes": "",
+      "status": "",
+      "poster": "assets/posters/3541415.jpg",
+      "summary": "",
+      "highlights": "",
+      "audience": "",
+      "tag": "",
+      "listTag": "classic",
+      "curatorNote": "",
+      "series": "",
+      "wantCount": 0,
+      "oneLine": "",
+      "platforms": []
+    },
+    {
+      "id": "db1292064",
+      "doubanId": "1292064",
+      "title": "楚门的世界",
+      "originalTitle": "",
+      "type": "movie",
+      "genres": [
+        "剧情",
+        "科幻"
+      ],
+      "year": 1998,
+      "region": "美国",
+      "regionGroup": "欧美",
+      "language": "",
+      "rating": 9.4,
+      "ratingCount": 2060723,
+      "directors": [
+        "彼得·威尔"
+      ],
+      "casts": [
+        "金·凯瑞",
+        "劳拉·琳妮"
+      ],
+      "duration": "",
+      "episodes": "",
+      "status": "",
+      "poster": "assets/posters/1292064.jpg",
+      "summary": "",
+      "highlights": "",
+      "audience": "",
+      "tag": "",
+      "listTag": "classic",
+      "curatorNote": "",
+      "series": "",
+      "wantCount": 0,
+      "oneLine": "",
+      "platforms": []
+    },
+    {
+      "id": "db3011091",
+      "doubanId": "3011091",
+      "title": "忠犬八公的故事",
+      "originalTitle": "",
+      "type": "movie",
+      "genres": [
+        "剧情"
+      ],
+      "year": 2009,
+      "region": "美国 英国",
+      "regionGroup": "欧美",
+      "language": "",
+      "rating": 9.4,
+      "ratingCount": 1563742,
+      "directors": [
+        "拉斯·霍尔斯道姆"
+      ],
+      "casts": [
+        "理查·基尔",
+        "莎拉·罗默尔"
+      ],
+      "duration": "",
+      "episodes": "",
+      "status": "",
+      "poster": "assets/posters/3011091.jpg",
+      "summary": "",
+      "highlights": "",
+      "audience": "",
+      "tag": "",
+      "listTag": "classic",
+      "curatorNote": "",
+      "series": "",
+      "wantCount": 0,
+      "oneLine": "",
+      "platforms": []
+    },
+    {
+      "id": "db1293182",
+      "doubanId": "1293182",
+      "title": "十二怒汉",
+      "originalTitle": "",
+      "type": "movie",
+      "genres": [
+        "剧情"
+      ],
+      "year": 1957,
+      "region": "美国",
+      "regionGroup": "欧美",
+      "language": "",
+      "rating": 9.4,
+      "ratingCount": 592187,
+      "directors": [
+        "西德尼·吕美特"
+      ],
+      "casts": [
+        "亨利·方达",
+        "马丁·鲍尔萨姆"
+      ],
+      "duration": "",
+      "episodes": "",
+      "status": "",
+      "poster": "assets/posters/1293182.jpg",
+      "summary": "",
+      "highlights": "",
+      "audience": "",
+      "tag": "",
+      "listTag": "classic",
+      "curatorNote": "",
+      "series": "",
+      "wantCount": 0,
+      "oneLine": "",
+      "platforms": []
+    },
+    {
+      "id": "db1292001",
+      "doubanId": "1292001",
+      "title": "海上钢琴师",
+      "originalTitle": "",
+      "type": "movie",
+      "genres": [
+        "剧情",
+        "音乐"
+      ],
+      "year": 1998,
+      "region": "意大利",
+      "regionGroup": "欧美",
+      "language": "",
+      "rating": 9.3,
+      "ratingCount": 1906705,
+      "directors": [
+        "朱塞佩·托纳多雷"
+      ],
+      "casts": [
+        "蒂姆·罗斯",
+        "普路特·泰勒·文斯"
+      ],
+      "duration": "",
+      "episodes": "",
+      "status": "",
+      "poster": "assets/posters/1292001.jpg",
+      "summary": "",
+      "highlights": "",
+      "audience": "",
+      "tag": "",
+      "listTag": "classic",
+      "curatorNote": "",
+      "series": "",
+      "wantCount": 0,
+      "oneLine": "",
+      "platforms": []
+    },
+    {
+      "id": "db25662329",
+      "doubanId": "25662329",
+      "title": "疯狂动物城",
+      "originalTitle": "",
+      "type": "movie",
+      "genres": [
+        "喜剧",
+        "动画",
+        "冒险"
+      ],
+      "year": 2016,
+      "region": "美国",
+      "regionGroup": "欧美",
+      "language": "",
+      "rating": 9.3,
+      "ratingCount": 2366687,
+      "directors": [
+        "拜伦·霍华德",
+        "瑞奇·摩尔"
+      ],
+      "casts": [
+        "金妮弗·古德温",
+        "杰森·贝特曼"
+      ],
+      "duration": "",
+      "episodes": "",
+      "status": "",
+      "poster": "assets/posters/25662329.jpg",
+      "summary": "",
+      "highlights": "",
+      "audience": "",
+      "tag": "",
+      "listTag": "classic",
+      "curatorNote": "",
+      "series": "",
+      "wantCount": 0,
+      "oneLine": "",
+      "platforms": []
+    },
+    {
+      "id": "db2131459",
+      "doubanId": "2131459",
+      "title": "机器人总动员",
+      "originalTitle": "",
+      "type": "movie",
+      "genres": [
+        "科幻",
+        "动画",
+        "冒险"
+      ],
+      "year": 2008,
+      "region": "美国",
+      "regionGroup": "欧美",
+      "language": "",
+      "rating": 9.3,
+      "ratingCount": 1530273,
+      "directors": [
+        "安德鲁·斯坦顿"
+      ],
+      "casts": [
+        "本·贝尔特",
+        "艾丽莎·奈特"
+      ],
+      "duration": "",
+      "episodes": "",
+      "status": "",
+      "poster": "assets/posters/2131459.jpg",
+      "summary": "",
+      "highlights": "",
+      "audience": "",
+      "tag": "",
+      "listTag": "classic",
+      "curatorNote": "",
+      "series": "",
+      "wantCount": 0,
+      "oneLine": "",
+      "platforms": []
+    },
+    {
+      "id": "db1291549",
+      "doubanId": "1291549",
+      "title": "放牛班的春天",
+      "originalTitle": "",
+      "type": "movie",
+      "genres": [
+        "剧情",
+        "音乐"
+      ],
+      "year": 2004,
+      "region": "法国 瑞士 德国",
+      "regionGroup": "欧美",
+      "language": "",
+      "rating": 9.3,
+      "ratingCount": 1496470,
+      "directors": [
+        "克里斯托夫·巴哈蒂"
+      ],
+      "casts": [
+        "让-巴蒂斯特·莫尼耶",
+        "热拉尔·朱尼奥"
+      ],
+      "duration": "",
+      "episodes": "",
+      "status": "",
+      "poster": "assets/posters/1291549.jpg",
+      "summary": "",
+      "highlights": "",
+      "audience": "",
+      "tag": "",
+      "listTag": "classic",
+      "curatorNote": "",
+      "series": "",
+      "wantCount": 0,
+      "oneLine": "",
+      "platforms": []
+    },
+    {
+      "id": "db1307914",
+      "doubanId": "1307914",
+      "title": "无间道",
+      "originalTitle": "",
+      "type": "movie",
+      "genres": [
+        "剧情",
+        "惊悚",
+        "犯罪"
+      ],
+      "year": 2002,
+      "region": "中国香港",
+      "regionGroup": "华语",
+      "language": "",
+      "rating": 9.3,
+      "ratingCount": 1593721,
+      "directors": [
+        "刘伟强",
+        "麦兆辉"
+      ],
+      "casts": [
+        "刘德华",
+        "梁朝伟"
+      ],
+      "duration": "",
+      "episodes": "",
+      "status": "",
+      "poster": "assets/posters/1307914.jpg",
+      "summary": "",
+      "highlights": "",
+      "audience": "",
+      "tag": "",
+      "listTag": "classic",
+      "curatorNote": "",
+      "series": "",
+      "wantCount": 0,
+      "oneLine": "",
+      "platforms": []
+    },
+    {
+      "id": "db5912992",
+      "doubanId": "5912992",
+      "title": "熔炉",
+      "originalTitle": "",
+      "type": "movie",
+      "genres": [
+        "剧情"
+      ],
+      "year": 2011,
+      "region": "韩国",
+      "regionGroup": "日韩",
+      "language": "",
+      "rating": 9.3,
+      "ratingCount": 1049664,
+      "directors": [
+        "黄东赫"
+      ],
+      "casts": [
+        "孔刘",
+        "郑裕美"
+      ],
+      "duration": "",
+      "episodes": "",
+      "status": "",
+      "poster": "assets/posters/5912992.jpg",
+      "summary": "",
+      "highlights": "",
+      "audience": "",
+      "tag": "",
+      "listTag": "classic",
+      "curatorNote": "",
+      "series": "",
+      "wantCount": 0,
+      "oneLine": "",
+      "platforms": []
+    },
+    {
+      "id": "db6786002",
+      "doubanId": "6786002",
+      "title": "触不可及",
+      "originalTitle": "",
+      "type": "movie",
+      "genres": [
+        "剧情",
+        "喜剧"
+      ],
+      "year": 2011,
+      "region": "法国",
+      "regionGroup": "欧美",
+      "language": "",
+      "rating": 9.3,
+      "ratingCount": 1320082,
+      "directors": [
+        "奥利维埃·纳卡什",
+        "埃里克·托莱达诺"
+      ],
+      "casts": [
+        "弗朗索瓦·克鲁塞",
+        "奥玛·希"
+      ],
+      "duration": "",
+      "episodes": "",
+      "status": "",
+      "poster": "assets/posters/6786002.jpg",
+      "summary": "",
+      "highlights": "",
+      "audience": "",
+      "tag": "",
+      "listTag": "classic",
+      "curatorNote": "",
+      "series": "",
+      "wantCount": 0,
+      "oneLine": "",
+      "platforms": []
+    },
+    {
+      "id": "db1291841",
+      "doubanId": "1291841",
+      "title": "教父",
+      "originalTitle": "",
+      "type": "movie",
+      "genres": [
+        "剧情",
+        "犯罪"
+      ],
+      "year": 1972,
+      "region": "美国",
+      "regionGroup": "欧美",
+      "language": "",
+      "rating": 9.3,
+      "ratingCount": 1128148,
+      "directors": [
+        "弗朗西斯·福特·科波拉"
+      ],
+      "casts": [
+        "马龙·白兰度",
+        "阿尔·帕西诺"
+      ],
+      "duration": "",
+      "episodes": "",
+      "status": "",
+      "poster": "assets/posters/1291841.jpg",
+      "summary": "",
+      "highlights": "",
+      "audience": "",
+      "tag": "",
+      "listTag": "classic",
+      "curatorNote": "",
+      "series": "",
+      "wantCount": 0,
+      "oneLine": "",
+      "platforms": []
+    },
+    {
+      "id": "db1293172",
+      "doubanId": "1293172",
+      "title": "末代皇帝",
+      "originalTitle": "",
+      "type": "movie",
+      "genres": [
+        "剧情",
+        "传记",
+        "历史"
+      ],
+      "year": 1987,
+      "region": "英国 意大利 中国大陆 法国",
+      "regionGroup": "华语",
+      "language": "",
+      "rating": 9.3,
+      "ratingCount": 1048645,
+      "directors": [
+        "贝纳尔多·贝托鲁奇"
+      ],
+      "casts": [
+        "尊龙",
+        "陈冲"
+      ],
+      "duration": "",
+      "episodes": "",
+      "status": "",
+      "poster": "assets/posters/1293172.jpg",
+      "summary": "",
+      "highlights": "",
+      "audience": "",
+      "tag": "",
+      "listTag": "classic",
+      "curatorNote": "",
+      "series": "",
+      "wantCount": 0,
+      "oneLine": "",
+      "platforms": []
+    },
+    {
+      "id": "db1292365",
+      "doubanId": "1292365",
+      "title": "活着",
+      "originalTitle": "",
+      "type": "movie",
+      "genres": [
+        "剧情",
+        "家庭",
+        "历史"
+      ],
+      "year": 1994,
+      "region": "中国大陆 中国香港",
+      "regionGroup": "华语",
+      "language": "",
+      "rating": 9.3,
+      "ratingCount": 988652,
+      "directors": [
+        "张艺谋"
+      ],
+      "casts": [
+        "葛优",
+        "巩俐"
+      ],
+      "duration": "",
+      "episodes": "",
+      "status": "",
+      "poster": "assets/posters/1292365.jpg",
+      "summary": "",
+      "highlights": "",
+      "audience": "",
+      "tag": "",
+      "listTag": "classic",
+      "curatorNote": "",
+      "series": "",
+      "wantCount": 0,
+      "oneLine": "",
+      "platforms": []
+    },
+    {
+      "id": "db1291552",
+      "doubanId": "1291552",
+      "title": "指环王3：王者无敌",
+      "originalTitle": "",
+      "type": "movie",
+      "genres": [
+        "剧情",
+        "动作",
+        "奇幻",
+        "冒险"
+      ],
+      "year": 2003,
+      "region": "美国 新西兰",
+      "regionGroup": "欧美",
+      "language": "",
+      "rating": 9.3,
+      "ratingCount": 927605,
+      "directors": [
+        "彼得·杰克逊"
+      ],
+      "casts": [
+        "伊利亚·伍德",
+        "西恩·奥斯汀"
+      ],
+      "duration": "",
+      "episodes": "",
+      "status": "",
+      "poster": "assets/posters/1291552.jpg",
+      "summary": "",
+      "highlights": "",
+      "audience": "",
+      "tag": "",
+      "listTag": "classic",
+      "curatorNote": "",
+      "series": "",
+      "wantCount": 0,
+      "oneLine": "",
+      "platforms": []
+    },
+    {
+      "id": "db1300267",
+      "doubanId": "1300267",
+      "title": "乱世佳人",
+      "originalTitle": "",
+      "type": "movie",
+      "genres": [
+        "剧情",
+        "爱情",
+        "历史",
+        "战争"
+      ],
+      "year": 1939,
+      "region": "美国",
+      "regionGroup": "欧美",
+      "language": "",
+      "rating": 9.3,
+      "ratingCount": 812507,
+      "directors": [
+        "维克多·弗莱明",
+        "乔治·库克"
+      ],
+      "casts": [
+        "费雯·丽",
+        "克拉克·盖博"
+      ],
+      "duration": "",
+      "episodes": "",
+      "status": "",
+      "poster": "assets/posters/1300267.jpg",
+      "summary": "",
+      "highlights": "",
+      "audience": "",
+      "tag": "",
+      "listTag": "classic",
+      "curatorNote": "",
+      "series": "",
+      "wantCount": 0,
+      "oneLine": "",
+      "platforms": []
+    },
+    {
+      "id": "db25958717",
+      "doubanId": "25958717",
+      "title": "海蒂和爷爷",
+      "originalTitle": "",
+      "type": "movie",
+      "genres": [
+        "剧情",
+        "家庭",
+        "冒险"
+      ],
+      "year": 2015,
+      "region": "德国 瑞士",
+      "regionGroup": "欧美",
+      "language": "",
+      "rating": 9.3,
+      "ratingCount": 807764,
+      "directors": [
+        "阿兰·葛斯彭纳"
+      ],
+      "casts": [
+        "阿努克·斯特芬",
+        "布鲁诺·冈茨"
+      ],
+      "duration": "",
+      "episodes": "",
+      "status": "",
+      "poster": "assets/posters/25958717.jpg",
+      "summary": "",
+      "highlights": "",
+      "audience": "",
+      "tag": "",
+      "listTag": "classic",
+      "curatorNote": "",
+      "series": "",
+      "wantCount": 0,
+      "oneLine": "",
+      "platforms": []
+    },
+    {
+      "id": "db21937452",
+      "doubanId": "21937452",
+      "title": "素媛",
+      "originalTitle": "",
+      "type": "movie",
+      "genres": [
+        "剧情"
+      ],
+      "year": 2013,
+      "region": "韩国",
+      "regionGroup": "日韩",
+      "language": "",
+      "rating": 9.3,
+      "ratingCount": 788821,
+      "directors": [
+        "李濬益"
+      ],
+      "casts": [
+        "薛景求",
+        "严志媛"
+      ],
+      "duration": "",
+      "episodes": "",
+      "status": "",
+      "poster": "assets/posters/21937452.jpg",
+      "summary": "",
+      "highlights": "",
+      "audience": "",
+      "tag": "",
+      "listTag": "classic",
+      "curatorNote": "",
+      "series": "",
+      "wantCount": 0,
+      "oneLine": "",
+      "platforms": []
+    },
+    {
+      "id": "db1291858",
+      "doubanId": "1291858",
+      "title": "鬼子来了",
+      "originalTitle": "",
+      "type": "movie",
+      "genres": [
+        "剧情",
+        "喜剧"
+      ],
+      "year": 2000,
+      "region": "中国大陆",
+      "regionGroup": "华语",
+      "language": "",
+      "rating": 9.3,
+      "ratingCount": 729455,
+      "directors": [
+        "姜文"
+      ],
+      "casts": [
+        "姜文",
+        "香川照之"
+      ],
+      "duration": "",
+      "episodes": "",
+      "status": "",
+      "poster": "assets/posters/1291858.jpg",
+      "summary": "",
+      "highlights": "",
+      "audience": "",
+      "tag": "",
+      "listTag": "classic",
+      "curatorNote": "",
+      "series": "",
+      "wantCount": 0,
+      "oneLine": "",
+      "platforms": []
+    },
+    {
+      "id": "db1296736",
+      "doubanId": "1296736",
+      "title": "钢琴家",
+      "originalTitle": "",
+      "type": "movie",
+      "genres": [
+        "剧情",
+        "音乐",
+        "传记",
+        "战争"
+      ],
+      "year": 2002,
+      "region": "英国 法国 波兰 德国 美国",
+      "regionGroup": "欧美",
+      "language": "",
+      "rating": 9.3,
+      "ratingCount": 764435,
+      "directors": [
+        "罗曼·波兰斯基"
+      ],
+      "casts": [
+        "阿德里安·布罗迪",
+        "托马斯·克莱舒曼"
+      ],
+      "duration": "",
+      "episodes": "",
+      "status": "",
+      "poster": "assets/posters/1296736.jpg",
+      "summary": "",
+      "highlights": "",
+      "audience": "",
+      "tag": "",
+      "listTag": "classic",
+      "curatorNote": "",
+      "series": "",
+      "wantCount": 0,
+      "oneLine": "",
+      "platforms": []
+    },
+    {
+      "id": "db3793023",
+      "doubanId": "3793023",
+      "title": "三傻大闹宝莱坞",
+      "originalTitle": "",
+      "type": "movie",
+      "genres": [
+        "剧情",
+        "喜剧",
+        "爱情",
+        "歌舞"
+      ],
+      "year": 2009,
+      "region": "印度",
+      "regionGroup": "其他",
+      "language": "",
+      "rating": 9.2,
+      "ratingCount": 2109423,
+      "directors": [
+        "拉吉库马尔·希拉尼"
+      ],
+      "casts": [
+        "阿米尔·汗",
+        "卡琳娜·卡普尔"
+      ],
+      "duration": "",
+      "episodes": "",
+      "status": "",
+      "poster": "assets/posters/3793023.jpg",
+      "summary": "",
+      "highlights": "",
+      "audience": "",
+      "tag": "",
+      "listTag": "classic",
+      "curatorNote": "",
+      "series": "",
+      "wantCount": 0,
+      "oneLine": "",
+      "platforms": []
+    },
+    {
+      "id": "db1292213",
+      "doubanId": "1292213",
+      "title": "大话西游之大圣娶亲",
+      "originalTitle": "",
+      "type": "movie",
+      "genres": [
+        "喜剧",
+        "爱情",
+        "奇幻",
+        "古装"
+      ],
+      "year": 1995,
+      "region": "中国香港 中国大陆",
+      "regionGroup": "华语",
+      "language": "",
+      "rating": 9.2,
+      "ratingCount": 1735679,
+      "directors": [
+        "刘镇伟"
+      ],
+      "casts": [
+        "周星驰",
+        "吴孟达"
+      ],
+      "duration": "",
+      "episodes": "",
+      "status": "",
+      "poster": "assets/posters/1292213.jpg",
+      "summary": "",
+      "highlights": "",
+      "audience": "",
+      "tag": "",
+      "listTag": "classic",
+      "curatorNote": "",
+      "series": "",
+      "wantCount": 0,
+      "oneLine": "",
+      "platforms": []
+    },
+    {
+      "id": "db1295038",
+      "doubanId": "1295038",
+      "title": "哈利·波特与魔法石",
+      "originalTitle": "",
+      "type": "movie",
+      "genres": [
+        "奇幻",
+        "冒险"
+      ],
+      "year": 2001,
+      "region": "美国 英国",
+      "regionGroup": "欧美",
+      "language": "",
+      "rating": 9.2,
+      "ratingCount": 1453771,
+      "directors": [
+        "克里斯·哥伦布"
+      ],
+      "casts": [
+        "丹尼尔·雷德克里夫",
+        "艾玛·沃森"
+      ],
+      "duration": "",
+      "episodes": "",
+      "status": "",
+      "poster": "assets/posters/1295038.jpg",
+      "summary": "",
+      "highlights": "",
+      "audience": "",
+      "tag": "",
+      "listTag": "classic",
+      "curatorNote": "",
+      "series": "",
+      "wantCount": 0,
+      "oneLine": "",
+      "platforms": []
+    },
+    {
+      "id": "db1291560",
+      "doubanId": "1291560",
+      "title": "龙猫",
+      "originalTitle": "",
+      "type": "movie",
+      "genres": [
+        "动画",
+        "奇幻",
+        "冒险"
+      ],
+      "year": 1988,
+      "region": "日本",
+      "regionGroup": "日韩",
+      "language": "",
+      "rating": 9.2,
+      "ratingCount": 1431978,
+      "directors": [
+        "宫崎骏"
+      ],
+      "casts": [
+        "日高范子",
+        "坂本千夏"
+      ],
+      "duration": "",
+      "episodes": "",
+      "status": "",
+      "poster": "assets/posters/1291560.jpg",
+      "summary": "",
+      "highlights": "",
+      "audience": "",
+      "tag": "",
+      "listTag": "classic",
+      "curatorNote": "",
+      "series": "",
+      "wantCount": 0,
+      "oneLine": "",
+      "platforms": []
+    },
+    {
+      "id": "db1851857",
+      "doubanId": "1851857",
+      "title": "蝙蝠侠：黑暗骑士",
+      "originalTitle": "",
+      "type": "movie",
+      "genres": [
+        "剧情",
+        "动作",
+        "科幻",
+        "惊悚",
+        "犯罪"
+      ],
+      "year": 2008,
+      "region": "美国 英国",
+      "regionGroup": "欧美",
+      "language": "",
+      "rating": 9.2,
+      "ratingCount": 1217487,
+      "directors": [
+        "克里斯托弗·诺兰"
+      ],
+      "casts": [
+        "克里斯蒂安·贝尔",
+        "希斯·莱杰"
+      ],
+      "duration": "",
+      "episodes": "",
+      "status": "",
+      "poster": "assets/posters/1851857.jpg",
+      "summary": "",
+      "highlights": "",
+      "audience": "",
+      "tag": "",
+      "listTag": "classic",
+      "curatorNote": "",
+      "series": "",
+      "wantCount": 0,
+      "oneLine": "",
+      "platforms": []
+    },
+    {
+      "id": "db1291583",
+      "doubanId": "1291583",
+      "title": "天空之城",
+      "originalTitle": "",
+      "type": "movie",
+      "genres": [
+        "动画",
+        "奇幻",
+        "冒险"
+      ],
+      "year": 1986,
+      "region": "日本",
+      "regionGroup": "日韩",
+      "language": "",
+      "rating": 9.2,
+      "ratingCount": 1025435,
+      "directors": [
+        "宫崎骏"
+      ],
+      "casts": [
+        "田中真弓",
+        "横泽启子"
+      ],
+      "duration": "",
+      "episodes": "",
+      "status": "",
+      "poster": "assets/posters/1291583.jpg",
+      "summary": "",
+      "highlights": "",
+      "audience": "",
+      "tag": "",
+      "listTag": "classic",
+      "curatorNote": "",
+      "series": "",
+      "wantCount": 0,
+      "oneLine": "",
+      "platforms": []
+    },
+    {
+      "id": "db1291548",
+      "doubanId": "1291548",
+      "title": "死亡诗社",
+      "originalTitle": "",
+      "type": "movie",
+      "genres": [
+        "剧情"
+      ],
+      "year": 1989,
+      "region": "美国",
+      "regionGroup": "欧美",
+      "language": "",
+      "rating": 9.2,
+      "ratingCount": 905537,
+      "directors": [
+        "彼得·威尔"
+      ],
+      "casts": [
+        "罗宾·威廉姆斯",
+        "罗伯特·肖恩·莱纳德"
+      ],
+      "duration": "",
+      "episodes": "",
+      "status": "",
+      "poster": "assets/posters/1291548.jpg",
+      "summary": "",
+      "highlights": "",
+      "audience": "",
+      "tag": "",
+      "listTag": "classic",
+      "curatorNote": "",
+      "series": "",
+      "wantCount": 0,
+      "oneLine": "",
+      "platforms": []
+    },
+    {
+      "id": "db1291572",
+      "doubanId": "1291572",
+      "title": "指环王2：双塔奇兵",
+      "originalTitle": "",
+      "type": "movie",
+      "genres": [
+        "剧情",
+        "动作",
+        "奇幻",
+        "冒险"
+      ],
+      "year": 2002,
+      "region": "美国 新西兰",
+      "regionGroup": "欧美",
+      "language": "",
+      "rating": 9.2,
+      "ratingCount": 874228,
+      "directors": [
+        "彼得·杰克逊"
+      ],
+      "casts": [
+        "伊利亚·伍德",
+        "西恩·奥斯汀"
+      ],
+      "duration": "",
+      "episodes": "",
+      "status": "",
+      "poster": "assets/posters/1291572.jpg",
+      "summary": "",
+      "highlights": "",
+      "audience": "",
+      "tag": "",
+      "listTag": "classic",
+      "curatorNote": "",
+      "series": "",
+      "wantCount": 0,
+      "oneLine": "",
+      "platforms": []
+    },
+    {
+      "id": "db20495023",
+      "doubanId": "20495023",
+      "title": "寻梦环游记",
+      "originalTitle": "",
+      "type": "movie",
+      "genres": [
+        "喜剧",
+        "动画",
+        "音乐",
+        "奇幻"
+      ],
+      "year": 2017,
+      "region": "美国",
+      "regionGroup": "欧美",
+      "language": "",
+      "rating": 9.1,
+      "ratingCount": 2035772,
+      "directors": [
+        "李·昂克里奇",
+        "阿德里安·莫利纳"
+      ],
+      "casts": [
+        "安东尼·冈萨雷斯",
+        "盖尔·加西亚·贝纳尔"
+      ],
+      "duration": "",
+      "episodes": "",
+      "status": "",
+      "poster": "assets/posters/20495023.jpg",
+      "summary": "",
+      "highlights": "",
+      "audience": "",
+      "tag": "",
+      "listTag": "classic",
+      "curatorNote": "",
+      "series": "",
+      "wantCount": 0,
+      "oneLine": "",
+      "platforms": []
+    },
+    {
+      "id": "db1849031",
+      "doubanId": "1849031",
+      "title": "当幸福来敲门",
+      "originalTitle": "",
+      "type": "movie",
+      "genres": [
+        "剧情",
+        "家庭",
+        "传记"
+      ],
+      "year": 2006,
+      "region": "美国",
+      "regionGroup": "欧美",
+      "language": "",
+      "rating": 9.1,
+      "ratingCount": 1712313,
+      "directors": [
+        "加布里埃莱·穆奇诺"
+      ],
+      "casts": [
+        "威尔·史密斯",
+        "贾登·史密斯"
+      ],
+      "duration": "",
+      "episodes": "",
+      "status": "",
+      "poster": "assets/posters/1849031.jpg",
+      "summary": "",
+      "highlights": "",
+      "audience": "",
+      "tag": "",
+      "listTag": "classic",
+      "curatorNote": "",
+      "series": "",
+      "wantCount": 0,
+      "oneLine": "",
+      "platforms": []
+    },
+    {
+      "id": "db3319755",
+      "doubanId": "3319755",
+      "title": "怦然心动",
+      "originalTitle": "",
+      "type": "movie",
+      "genres": [
+        "剧情",
+        "喜剧",
+        "爱情"
+      ],
+      "year": 2010,
+      "region": "美国",
+      "regionGroup": "欧美",
+      "language": "",
+      "rating": 9.1,
+      "ratingCount": 2081501,
+      "directors": [
+        "罗伯·莱纳"
+      ],
+      "casts": [
+        "玛德琳·卡罗尔",
+        "卡兰·麦克奥利菲"
+      ],
+      "duration": "",
+      "episodes": "",
+      "status": "",
+      "poster": "assets/posters/3319755.jpg",
+      "summary": "",
+      "highlights": "",
+      "audience": "",
+      "tag": "",
+      "listTag": "classic",
+      "curatorNote": "",
+      "series": "",
+      "wantCount": 0,
+      "oneLine": "",
+      "platforms": []
+    },
+    {
+      "id": "db2129039",
+      "doubanId": "2129039",
+      "title": "飞屋环游记",
+      "originalTitle": "",
+      "type": "movie",
+      "genres": [
+        "剧情",
+        "喜剧",
+        "动画",
+        "冒险"
+      ],
+      "year": 2009,
+      "region": "美国",
+      "regionGroup": "欧美",
+      "language": "",
+      "rating": 9.1,
+      "ratingCount": 1526799,
+      "directors": [
+        "彼特·道格特",
+        "鲍勃·彼德森"
+      ],
+      "casts": [
+        "爱德华·阿斯纳",
+        "克里斯托弗·普卢默"
+      ],
+      "duration": "",
+      "episodes": "",
+      "status": "",
+      "poster": "assets/posters/2129039.jpg",
+      "summary": "",
+      "highlights": "",
+      "audience": "",
+      "tag": "",
+      "listTag": "classic",
+      "curatorNote": "",
+      "series": "",
+      "wantCount": 0,
+      "oneLine": "",
+      "platforms": []
+    },
+    {
+      "id": "db1308807",
+      "doubanId": "1308807",
+      "title": "哈尔的移动城堡",
+      "originalTitle": "",
+      "type": "movie",
+      "genres": [
+        "爱情",
+        "动画",
+        "奇幻",
+        "冒险"
+      ],
+      "year": 2004,
+      "region": "日本",
+      "regionGroup": "日韩",
+      "language": "",
+      "rating": 9.1,
+      "ratingCount": 1319866,
+      "directors": [
+        "宫崎骏"
+      ],
+      "casts": [
+        "倍赏千惠子",
+        "木村拓哉"
+      ],
+      "duration": "",
+      "episodes": "",
+      "status": "",
+      "poster": "assets/posters/1308807.jpg",
+      "summary": "",
+      "highlights": "",
+      "audience": "",
+      "tag": "",
+      "listTag": "classic",
+      "curatorNote": "",
+      "series": "",
+      "wantCount": 0,
+      "oneLine": "",
+      "platforms": []
+    },
+    {
+      "id": "db1305487",
+      "doubanId": "1305487",
+      "title": "猫鼠游戏",
+      "originalTitle": "",
+      "type": "movie",
+      "genres": [
+        "剧情",
+        "传记",
+        "犯罪"
+      ],
+      "year": 2002,
+      "region": "美国 加拿大",
+      "regionGroup": "欧美",
+      "language": "",
+      "rating": 9.1,
+      "ratingCount": 1236999,
+      "directors": [
+        "史蒂文·斯皮尔伯格"
+      ],
+      "casts": [
+        "莱昂纳多·迪卡普里奥",
+        "汤姆·汉克斯"
+      ],
+      "duration": "",
+      "episodes": "",
+      "status": "",
+      "poster": "assets/posters/1305487.jpg",
+      "summary": "",
+      "highlights": "",
+      "audience": "",
+      "tag": "",
+      "listTag": "classic",
+      "curatorNote": "",
+      "series": "",
+      "wantCount": 0,
+      "oneLine": "",
+      "platforms": []
+    },
+    {
+      "id": "db1929463",
+      "doubanId": "1929463",
+      "title": "少年派的奇幻漂流",
+      "originalTitle": "",
+      "type": "movie",
+      "genres": [
+        "剧情",
+        "奇幻",
+        "冒险"
+      ],
+      "year": 2012,
+      "region": "美国 中国台湾 英国 加拿大",
+      "regionGroup": "华语",
+      "language": "",
+      "rating": 9.1,
+      "ratingCount": 1510252,
+      "directors": [
+        "李安"
+      ],
+      "casts": [
+        "苏拉·沙玛",
+        "伊尔凡·可汗"
+      ],
+      "duration": "",
+      "episodes": "",
+      "status": "",
+      "poster": "assets/posters/1929463.jpg",
+      "summary": "",
+      "highlights": "",
+      "audience": "",
+      "tag": "",
+      "listTag": "classic",
+      "curatorNote": "",
+      "series": "",
+      "wantCount": 0,
+      "oneLine": "",
+      "platforms": []
+    },
+    {
+      "id": "db26752088",
+      "doubanId": "26752088",
+      "title": "我不是药神",
+      "originalTitle": "",
+      "type": "movie",
+      "genres": [
+        "剧情",
+        "喜剧"
+      ],
+      "year": 2018,
+      "region": "中国大陆",
+      "regionGroup": "华语",
+      "language": "",
+      "rating": 9,
+      "ratingCount": 2388471,
+      "directors": [
+        "文牧野"
+      ],
+      "casts": [
+        "徐峥",
+        "王传君"
+      ],
+      "duration": "",
+      "episodes": "",
+      "status": "",
+      "poster": "assets/posters/26752088.jpg",
+      "summary": "",
+      "highlights": "",
+      "audience": "",
+      "tag": "",
+      "listTag": "classic",
+      "curatorNote": "",
+      "series": "",
+      "wantCount": 0,
+      "oneLine": "",
+      "platforms": []
+    },
+    {
+      "id": "db3742360",
+      "doubanId": "3742360",
+      "title": "让子弹飞",
+      "originalTitle": "",
+      "type": "movie",
+      "genres": [
+        "剧情",
+        "喜剧",
+        "动作",
+        "西部"
+      ],
+      "year": 2010,
+      "region": "中国大陆 中国香港",
+      "regionGroup": "华语",
+      "language": "",
+      "rating": 9,
+      "ratingCount": 1949092,
+      "directors": [
+        "姜文"
+      ],
+      "casts": [
+        "姜文",
+        "葛优"
+      ],
+      "duration": "",
+      "episodes": "",
+      "status": "",
+      "poster": "assets/posters/3742360.jpg",
+      "summary": "",
+      "highlights": "",
+      "audience": "",
+      "tag": "",
+      "listTag": "classic",
+      "curatorNote": "",
+      "series": "",
+      "wantCount": 0,
+      "oneLine": "",
+      "platforms": []
+    },
+    {
+      "id": "db26387939",
+      "doubanId": "26387939",
+      "title": "摔跤吧！爸爸",
+      "originalTitle": "",
+      "type": "movie",
+      "genres": [
+        "剧情",
+        "家庭",
+        "传记",
+        "运动"
+      ],
+      "year": 2016,
+      "region": "印度",
+      "regionGroup": "其他",
+      "language": "",
+      "rating": 9,
+      "ratingCount": 1773502,
+      "directors": [
+        "涅提·蒂瓦里"
+      ],
+      "casts": [
+        "阿米尔·汗",
+        "法缇玛·萨那·纱卡"
+      ],
+      "duration": "",
+      "episodes": "",
+      "status": "",
+      "poster": "assets/posters/26387939.jpg",
+      "summary": "",
+      "highlights": "",
+      "audience": "",
+      "tag": "",
+      "listTag": "classic",
+      "curatorNote": "",
+      "series": "",
+      "wantCount": 0,
+      "oneLine": "",
+      "platforms": []
+    },
+    {
+      "id": "db1299398",
+      "doubanId": "1299398",
+      "title": "大话西游之月光宝盒",
+      "originalTitle": "",
+      "type": "movie",
+      "genres": [
+        "喜剧",
+        "爱情",
+        "奇幻",
+        "古装"
+      ],
+      "year": 1995,
+      "region": "中国香港 中国大陆",
+      "regionGroup": "华语",
+      "language": "",
+      "rating": 9,
+      "ratingCount": 1389180,
+      "directors": [
+        "刘镇伟"
+      ],
+      "casts": [
+        "周星驰",
+        "吴孟达"
+      ],
+      "duration": "",
+      "episodes": "",
+      "status": "",
+      "poster": "assets/posters/1299398.jpg",
+      "summary": "",
+      "highlights": "",
+      "audience": "",
+      "tag": "",
+      "listTag": "classic",
+      "curatorNote": "",
+      "series": "",
+      "wantCount": 0,
+      "oneLine": "",
+      "platforms": []
+    },
+    {
+      "id": "db38397649",
+      "doubanId": "38397649",
+      "title": "孤单又灿烂的神：鬼怪十周年特辑",
+      "originalTitle": "",
+      "type": "tv",
+      "genres": [
+        "真人秀"
+      ],
+      "year": 2026,
+      "region": "韩国",
+      "regionGroup": "日韩",
+      "language": "",
+      "rating": 9,
+      "ratingCount": 6787,
+      "directors": [
+        "李应福"
+      ],
+      "casts": [
+        "孔刘",
+        "金高银"
+      ],
+      "duration": "",
+      "episodes": "",
+      "status": "",
+      "poster": "assets/posters/38397649.jpg",
+      "summary": "为纪念开播十周年，剧中主演睽违多年再度聚首，展开特別旅行，重访经典场景、回顾难忘台词，并分享拍摄幕后故事，带领观众再次感受《鬼怪》孤单又灿烂的魅力。",
+      "highlights": "",
+      "audience": "",
+      "tag": "🏆 神作",
+      "listTag": "hot",
+      "curatorNote": "",
+      "series": "",
+      "wantCount": 0,
+      "oneLine": "",
+      "platforms": []
+    },
+    {
       "id": "db37322586",
       "doubanId": "37322586",
       "title": "生日快乐",
@@ -30,7 +2018,7 @@
       "regionGroup": "其他",
       "language": "",
       "rating": 8.9,
-      "ratingCount": 24021,
+      "ratingCount": 24030,
       "directors": [
         "萨拉·戈赫尔"
       ],
@@ -55,6 +2043,46 @@
       "platforms": []
     },
     {
+      "id": "db27060077",
+      "doubanId": "27060077",
+      "title": "绿皮书",
+      "originalTitle": "",
+      "type": "movie",
+      "genres": [
+        "剧情",
+        "喜剧",
+        "音乐",
+        "传记"
+      ],
+      "year": 2018,
+      "region": "美国 中国大陆",
+      "regionGroup": "华语",
+      "language": "",
+      "rating": 8.9,
+      "ratingCount": 1927224,
+      "directors": [
+        "彼得·法雷里"
+      ],
+      "casts": [
+        "维果·莫腾森",
+        "马赫沙拉·阿里"
+      ],
+      "duration": "",
+      "episodes": "",
+      "status": "",
+      "poster": "assets/posters/27060077.jpg",
+      "summary": "",
+      "highlights": "",
+      "audience": "",
+      "tag": "",
+      "listTag": "classic",
+      "curatorNote": "",
+      "series": "",
+      "wantCount": 0,
+      "oneLine": "",
+      "platforms": []
+    },
+    {
       "id": "db35811064",
       "doubanId": "35811064",
       "title": "欢迎来龙餐馆",
@@ -69,7 +2097,7 @@
       "regionGroup": "华语",
       "language": "",
       "rating": 8.7,
-      "ratingCount": 780888,
+      "ratingCount": 780891,
       "directors": [
         "文牧野"
       ],
@@ -214,6 +2242,46 @@
       "platforms": []
     },
     {
+      "id": "db37215318",
+      "doubanId": "37215318",
+      "title": "黑球",
+      "originalTitle": "",
+      "type": "movie",
+      "genres": [
+        "剧情",
+        "同性",
+        "历史"
+      ],
+      "year": 2026,
+      "region": "西班牙 法国",
+      "regionGroup": "欧美",
+      "language": "",
+      "rating": 8.6,
+      "ratingCount": 13162,
+      "directors": [
+        "哈维尔·安布罗希",
+        "哈维尔·卡尔沃"
+      ],
+      "casts": [
+        "吉塔里卡·德拉富恩特",
+        "米格尔·贝尔纳尔德阿尤"
+      ],
+      "duration": "",
+      "episodes": "",
+      "status": "",
+      "poster": "assets/posters/37215318.jpg",
+      "summary": "",
+      "highlights": "",
+      "audience": "",
+      "tag": "",
+      "listTag": "classic",
+      "curatorNote": "",
+      "series": "",
+      "wantCount": 0,
+      "oneLine": "",
+      "platforms": []
+    },
+    {
       "id": "db36137784",
       "doubanId": "36137784",
       "title": "幻视任务",
@@ -230,7 +2298,7 @@
       "regionGroup": "欧美",
       "language": "",
       "rating": 8.6,
-      "ratingCount": 5053,
+      "ratingCount": 5054,
       "directors": [
         "克里斯托弗·J·伯恩",
         "甘加·蒙泰罗"
@@ -271,7 +2339,7 @@
       "regionGroup": "华语",
       "language": "",
       "rating": 8.5,
-      "ratingCount": 243615,
+      "ratingCount": 243618,
       "directors": [
         "程小东"
       ],
@@ -350,7 +2418,7 @@
       "regionGroup": "欧美",
       "language": "",
       "rating": 8.4,
-      "ratingCount": 23761,
+      "ratingCount": 23768,
       "directors": [
         "丽贝卡·加特沃德"
       ],
@@ -363,6 +2431,45 @@
       "status": "",
       "poster": "assets/posters/37218278.jpg",
       "summary": "编辑苏珊·赖兰（莱丝利·曼维尔 饰）受聘负责一部阿提库斯·庞德系列的续作小说，作者是一位问题重重的年轻人。当这份工作将苏珊卷入另一起谋杀案时，她意外地发现自己竟成了嫌疑人。在小说的情节中，阿提库斯·庞德（蒂姆·迈克穆兰 饰）正造访科孚岛，却卷入了玛格丽特·查尔方特伯爵夫 人的谋杀案，他与一名希腊侦探（祖宾·瓦尔拉 饰）合作，对受害者的家族展开了调查。\n本季改编自安东尼·霍洛维茨创作系列小说的第三部。",
+      "highlights": "",
+      "audience": "",
+      "tag": "📺 热播剧集",
+      "listTag": "hot",
+      "curatorNote": "",
+      "series": "",
+      "wantCount": 0,
+      "oneLine": "",
+      "platforms": []
+    },
+    {
+      "id": "db37005231",
+      "doubanId": "37005231",
+      "title": "绅士们 第二季",
+      "originalTitle": "",
+      "type": "tv",
+      "genres": [
+        "喜剧",
+        "动作",
+        "犯罪"
+      ],
+      "year": 2026,
+      "region": "英国 美国",
+      "regionGroup": "欧美",
+      "language": "",
+      "rating": 8.4,
+      "ratingCount": 11022,
+      "directors": [
+        "盖·里奇"
+      ],
+      "casts": [
+        "西奥·詹姆斯",
+        "卡雅·斯考达里奥"
+      ],
+      "duration": "",
+      "episodes": "",
+      "status": "",
+      "poster": "assets/posters/37005231.jpg",
+      "summary": "丛林要不断扩张！\n艾迪公爵（西奥·詹姆斯 饰）带着全新的野心登场。为了让帝国版图持续成长，他将触角延伸到国界之外，杠上意大利黑手党。",
       "highlights": "",
       "audience": "",
       "tag": "📺 热播剧集",
@@ -411,6 +2518,162 @@
       "platforms": []
     },
     {
+      "id": "db37291935",
+      "doubanId": "37291935",
+      "title": "狂怒追缉 第一季",
+      "originalTitle": "",
+      "type": "tv",
+      "genres": [
+        "惊悚",
+        "犯罪"
+      ],
+      "year": 2026,
+      "region": "美国",
+      "regionGroup": "欧美",
+      "language": "",
+      "rating": 8.3,
+      "ratingCount": 15561,
+      "directors": [
+        "布莱恩·柯克"
+      ],
+      "casts": [
+        "埃米·罗森",
+        "洛拉·佩蒂克鲁"
+      ],
+      "duration": "",
+      "episodes": "",
+      "status": "",
+      "poster": "assets/posters/37291935.jpg",
+      "summary": "FBI探员爱丽丝·布莱克（埃米·罗森 饰）深入追查神秘女性连环杀手（洛拉·佩蒂克鲁 饰）。每一次接近真相，都更靠近失控边缘。当正义开始动摇，谁才是真正的猎人？",
+      "highlights": "",
+      "audience": "",
+      "tag": "📺 热播剧集",
+      "listTag": "hot",
+      "curatorNote": "",
+      "series": "",
+      "wantCount": 0,
+      "oneLine": "",
+      "platforms": []
+    },
+    {
+      "id": "db37214286",
+      "doubanId": "37214286",
+      "title": "中头奖还是要上班",
+      "originalTitle": "",
+      "type": "tv",
+      "genres": [
+        "剧情",
+        "喜剧"
+      ],
+      "year": 2026,
+      "region": "韩国",
+      "regionGroup": "日韩",
+      "language": "",
+      "rating": 8,
+      "ratingCount": 9700,
+      "directors": [
+        "尹英彬"
+      ],
+      "casts": [
+        "李浚赫",
+        "徐现宇"
+      ],
+      "duration": "",
+      "episodes": "",
+      "status": "",
+      "poster": "assets/posters/37214286.jpg",
+      "summary": "一名普通的上班族孔恩泰（李浚赫 饰）意外中了彩票一等奖，却眼睁睁看着他平静的生活逐渐瓦解......\n该剧改编自徐仁荷(Seo In Ha, 서인하)的同名网络小说。",
+      "highlights": "",
+      "audience": "",
+      "tag": "📺 热播剧集",
+      "listTag": "hot",
+      "curatorNote": "",
+      "series": "",
+      "wantCount": 0,
+      "oneLine": "",
+      "platforms": []
+    },
+    {
+      "id": "db37815828",
+      "doubanId": "37815828",
+      "title": "开始推理吧 第四季",
+      "originalTitle": "",
+      "type": "tv",
+      "genres": [
+        "真人秀"
+      ],
+      "year": 2026,
+      "region": "中国大陆",
+      "regionGroup": "华语",
+      "language": "",
+      "rating": 8,
+      "ratingCount": 9480,
+      "directors": [
+        "刘宇宁",
+        "金靖"
+      ],
+      "casts": [],
+      "duration": "",
+      "episodes": "",
+      "status": "",
+      "poster": "assets/posters/37815828.jpg",
+      "summary": "节目是一档开放式真人社交推理游戏综艺。由刘宇宁、金靖、张凌赫、丁程鑫、周柯宇组成的玩家团将共同进入游戏世界《推门》，他们将沉浸式体验不同的角色人生、团结协作通关四大主题副本，探索“推门”背后的终极真相！",
+      "highlights": "",
+      "audience": "",
+      "tag": "📺 热播剧集",
+      "listTag": "hot",
+      "curatorNote": "",
+      "series": "",
+      "wantCount": 0,
+      "oneLine": "",
+      "platforms": []
+    },
+    {
+      "id": "db36225837",
+      "doubanId": "36225837",
+      "title": "绿灯军团",
+      "originalTitle": "",
+      "type": "tv",
+      "genres": [
+        "剧情",
+        "动作",
+        "科幻",
+        "悬疑",
+        "惊悚",
+        "犯罪",
+        "奇幻",
+        "冒险"
+      ],
+      "year": 2026,
+      "region": "美国",
+      "regionGroup": "欧美",
+      "language": "",
+      "rating": 7.9,
+      "ratingCount": 13841,
+      "directors": [
+        "詹姆斯·霍斯",
+        "斯蒂芬·威廉姆斯"
+      ],
+      "casts": [
+        "凯尔·钱德勒",
+        "亚伦·皮埃尔"
+      ],
+      "duration": "",
+      "episodes": "",
+      "status": "",
+      "poster": "assets/posters/36225837.jpg",
+      "summary": "星际和平守护者绿灯侠所戴的戒指赋予他们非凡的力量。传奇绿灯侠哈尔·乔丹（凯尔·钱德勒 饰）和新人绿灯侠约翰·斯图尔特（亚伦·皮埃尔 饰）调查内布拉斯加州一桩谋杀案时，被卷入一个以地球为中心的黑暗谜团之中。",
+      "highlights": "",
+      "audience": "",
+      "tag": "📺 热播剧集",
+      "listTag": "hot",
+      "curatorNote": "",
+      "series": "",
+      "wantCount": 0,
+      "oneLine": "",
+      "platforms": []
+    },
+    {
       "id": "db25798131",
       "doubanId": "25798131",
       "title": "疾速追杀",
@@ -426,7 +2689,7 @@
       "regionGroup": "欧美",
       "language": "",
       "rating": 7.8,
-      "ratingCount": 266365,
+      "ratingCount": 266377,
       "directors": [
         "查德·斯塔赫斯基"
       ],
@@ -465,7 +2728,7 @@
       "regionGroup": "华语",
       "language": "",
       "rating": 7.8,
-      "ratingCount": 28640,
+      "ratingCount": 28667,
       "directors": [
         "姚婷婷"
       ],
@@ -503,7 +2766,7 @@
       "regionGroup": "华语",
       "language": "",
       "rating": 7.8,
-      "ratingCount": 59767,
+      "ratingCount": 59777,
       "directors": [
         "于淼"
       ],
@@ -620,7 +2883,7 @@
       "regionGroup": "欧美",
       "language": "",
       "rating": 7.6,
-      "ratingCount": 299358,
+      "ratingCount": 299364,
       "directors": [
         "库里·巴克"
       ],
@@ -645,6 +2908,157 @@
       "platforms": []
     },
     {
+      "id": "db37067733",
+      "doubanId": "37067733",
+      "title": "侠探杰克 第四季",
+      "originalTitle": "",
+      "type": "tv",
+      "genres": [
+        "剧情",
+        "动作"
+      ],
+      "year": 2026,
+      "region": "美国",
+      "regionGroup": "欧美",
+      "language": "",
+      "rating": 7.6,
+      "ratingCount": 5962,
+      "directors": [
+        "山姆·希尔",
+        "加里·弗莱德"
+      ],
+      "casts": [
+        "阿兰·里奇森",
+        "安君"
+      ],
+      "duration": "",
+      "episodes": "",
+      "status": "",
+      "poster": "assets/posters/37067733.jpg",
+      "summary": "Reacher has been renewed for a fourth season at Prime Video, even though Season 3 won’t debut until next year.",
+      "highlights": "",
+      "audience": "",
+      "tag": "📺 热播剧集",
+      "listTag": "hot",
+      "curatorNote": "",
+      "series": "",
+      "wantCount": 0,
+      "oneLine": "",
+      "platforms": []
+    },
+    {
+      "id": "db37814472",
+      "doubanId": "37814472",
+      "title": "五十公里桃花坞6",
+      "originalTitle": "",
+      "type": "tv",
+      "genres": [
+        "真人秀"
+      ],
+      "year": 2026,
+      "region": "中国大陆",
+      "regionGroup": "华语",
+      "language": "",
+      "rating": 7.6,
+      "ratingCount": 8028,
+      "directors": [
+        "周涛",
+        "袁咏仪"
+      ],
+      "casts": [],
+      "duration": "",
+      "episodes": "",
+      "status": "",
+      "poster": "assets/posters/37814472.jpg",
+      "summary": "节目以“城市角落”为主题，集结15位多元坞民通过21天的共同生活与亲手建造，探索\"在不够理想的环境中，如何创造理想生活\"的时代命题。这是一场关于城市更新，社区再造与社交实验的\"温暖成人童话\"。",
+      "highlights": "",
+      "audience": "",
+      "tag": "📺 热播剧集",
+      "listTag": "hot",
+      "curatorNote": "",
+      "series": "",
+      "wantCount": 0,
+      "oneLine": "",
+      "platforms": []
+    },
+    {
+      "id": "db36623663",
+      "doubanId": "36623663",
+      "title": "害群之马",
+      "originalTitle": "",
+      "type": "movie",
+      "genres": [
+        "喜剧",
+        "惊悚"
+      ],
+      "year": 2025,
+      "region": "英国",
+      "regionGroup": "欧美",
+      "language": "",
+      "rating": 7.5,
+      "ratingCount": 7326,
+      "directors": [
+        "乔纳坦·埃茨勒"
+      ],
+      "casts": [
+        "西尔莎·罗南",
+        "埃迪·沃勒"
+      ],
+      "duration": "",
+      "episodes": "",
+      "status": "",
+      "poster": "assets/posters/36623663.jpg",
+      "summary": "",
+      "highlights": "",
+      "audience": "",
+      "tag": "",
+      "listTag": "classic",
+      "curatorNote": "",
+      "series": "",
+      "wantCount": 0,
+      "oneLine": "",
+      "platforms": []
+    },
+    {
+      "id": "db37516455",
+      "doubanId": "37516455",
+      "title": "杯雪·一战成名",
+      "originalTitle": "",
+      "type": "movie",
+      "genres": [
+        "犯罪",
+        "武侠",
+        "古装"
+      ],
+      "year": 2026,
+      "region": "中国大陆",
+      "regionGroup": "华语",
+      "language": "",
+      "rating": 7.5,
+      "ratingCount": 20489,
+      "directors": [
+        "刘文普"
+      ],
+      "casts": [
+        "潘斌龙",
+        "安志杰"
+      ],
+      "duration": "",
+      "episodes": "",
+      "status": "",
+      "poster": "assets/posters/37516455.jpg",
+      "summary": "",
+      "highlights": "",
+      "audience": "",
+      "tag": "",
+      "listTag": "classic",
+      "curatorNote": "",
+      "series": "",
+      "wantCount": 0,
+      "oneLine": "",
+      "platforms": []
+    },
+    {
       "id": "db37042229",
       "doubanId": "37042229",
       "title": "醉梦",
@@ -659,7 +3073,7 @@
       "regionGroup": "华语",
       "language": "",
       "rating": 7.5,
-      "ratingCount": 98006,
+      "ratingCount": 98014,
       "directors": [
         "杨阳"
       ],
@@ -698,7 +3112,7 @@
       "regionGroup": "华语",
       "language": "",
       "rating": 7.5,
-      "ratingCount": 142321,
+      "ratingCount": 142332,
       "directors": [
         "黄颖湘",
         "陈丹"
@@ -723,6 +3137,45 @@
       "platforms": []
     },
     {
+      "id": "db37446297",
+      "doubanId": "37446297",
+      "title": "逃出布迪秀",
+      "originalTitle": "",
+      "type": "movie",
+      "genres": [
+        "惊悚",
+        "恐怖",
+        "奇幻"
+      ],
+      "year": 2026,
+      "region": "美国",
+      "regionGroup": "欧美",
+      "language": "",
+      "rating": 7.4,
+      "ratingCount": 25458,
+      "directors": [
+        "加斯帕·凯利"
+      ],
+      "casts": [
+        "德莱尼·奎因",
+        "凯莱布·威廉姆斯"
+      ],
+      "duration": "",
+      "episodes": "",
+      "status": "",
+      "poster": "assets/posters/37446297.jpg",
+      "summary": "",
+      "highlights": "",
+      "audience": "",
+      "tag": "",
+      "listTag": "classic",
+      "curatorNote": "",
+      "series": "",
+      "wantCount": 0,
+      "oneLine": "",
+      "platforms": []
+    },
+    {
       "id": "db37413245",
       "doubanId": "37413245",
       "title": "怪物：丽兹·波顿的故事",
@@ -739,7 +3192,7 @@
       "regionGroup": "欧美",
       "language": "",
       "rating": 7.4,
-      "ratingCount": 22683,
+      "ratingCount": 22684,
       "directors": [
         "麦克思·温克勒"
       ],
@@ -752,6 +3205,78 @@
       "status": "",
       "poster": "assets/posters/37413245.jpg",
       "summary": "本季将聚焦丽兹·波顿和一起著名的血腥杀人案，“鹅妈妈童谣”里《丽兹波顿拿起斧头》所渲染的：“丽兹波顿拿起斧头/砍了她爸爸四十下/当她意识到自己做了什么/她砍了她妈妈四十一下。”\n波顿居住在19世纪的美国马萨诸塞州，1892年，时年33岁的她被控在家中用斧头谋杀了父亲和继母，场面血腥，而最终她被陪审团认定没有施行此案的体力和头脑，被宣判无罪。这起杀人案件和其判定引发了极大关注，在美国流行文化中也有重要地位，已多次被改编影视。",
+      "highlights": "",
+      "audience": "",
+      "tag": "📺 热播剧集",
+      "listTag": "hot",
+      "curatorNote": "",
+      "series": "",
+      "wantCount": 0,
+      "oneLine": "",
+      "platforms": []
+    },
+    {
+      "id": "db37218815",
+      "doubanId": "37218815",
+      "title": "斯特林角 第一季",
+      "originalTitle": "",
+      "type": "tv",
+      "genres": [
+        "剧情"
+      ],
+      "year": 2026,
+      "region": "美国",
+      "regionGroup": "欧美",
+      "language": "",
+      "rating": 7.4,
+      "ratingCount": 9323,
+      "directors": [
+        "梅根·帕克"
+      ],
+      "casts": [
+        "艾拉·鲁宾",
+        "艾米丽·霍菲尔"
+      ],
+      "duration": "",
+      "episodes": "",
+      "status": "",
+      "poster": "assets/posters/37218815.jpg",
+      "summary": "17岁的纽约少女Annie（艾拉·鲁宾 饰）和双胞胎哥哥由养父抚养长大。她无意中继承了神秘外祖父在加拿大的一座岛屿。于是她前往加拿大度过了一个夏天。在那里，她结交了新朋友，收获了浪漫爱情，并揭开了家族的隐藏秘密。",
+      "highlights": "",
+      "audience": "",
+      "tag": "📺 热播剧集",
+      "listTag": "hot",
+      "curatorNote": "",
+      "series": "",
+      "wantCount": 0,
+      "oneLine": "",
+      "platforms": []
+    },
+    {
+      "id": "db37815373",
+      "doubanId": "37815373",
+      "title": "地球超新鲜 第二季",
+      "originalTitle": "",
+      "type": "tv",
+      "genres": [
+        "真人秀"
+      ],
+      "year": 2026,
+      "region": "中国大陆",
+      "regionGroup": "华语",
+      "language": "",
+      "rating": 7.4,
+      "ratingCount": 15291,
+      "directors": [
+        "孙红雷",
+        "李乃文"
+      ],
+      "casts": [],
+      "duration": "",
+      "episodes": "",
+      "status": "",
+      "poster": "assets/posters/37815373.jpg",
+      "summary": "《地球超新鲜》第二季继续以快乐解压为核心基调，开启“地球团”的快乐旅程。节目路线将继续延着地球的脉络，探索更全面的世界文化旅行和体验。节目以旅行+奇趣体验+游戏任务+世界美食为四重看点，不仅延续赛道欢乐属性，也会体验更多人文和自然奇观，走进世界各地街头巷尾，展现丰富多样的风土民情，玩转地球。",
       "highlights": "",
       "audience": "",
       "tag": "📺 热播剧集",
@@ -778,7 +3303,7 @@
       "regionGroup": "欧美",
       "language": "",
       "rating": 7.3,
-      "ratingCount": 211270,
+      "ratingCount": 211280,
       "directors": [
         "扎克·克雷格"
       ],
@@ -818,7 +3343,7 @@
       "regionGroup": "欧美",
       "language": "",
       "rating": 7.3,
-      "ratingCount": 23925,
+      "ratingCount": 23926,
       "directors": [
         "大卫·阿耶"
       ],
@@ -870,6 +3395,81 @@
       "status": "",
       "poster": "assets/posters/37297001.jpg",
       "summary": "上官诚明全家惨遭天相派设局灭门，他化名潜伏，以牙还牙，以眼还眼，联手身陷泥淖却势要逆天改命的江飞燕，用连环骗局反噬仇敌，一路揭露骗术黑幕，最终瓦解天相派，解救受控者，惩恶扬善终彰善念。\n改编自易之小说《我是个算命先生》。",
+      "highlights": "",
+      "audience": "",
+      "tag": "📺 热播剧集",
+      "listTag": "hot",
+      "curatorNote": "",
+      "series": "",
+      "wantCount": 0,
+      "oneLine": "",
+      "platforms": []
+    },
+    {
+      "id": "db36554071",
+      "doubanId": "36554071",
+      "title": "重器",
+      "originalTitle": "",
+      "type": "tv",
+      "genres": [
+        "剧情"
+      ],
+      "year": 2026,
+      "region": "中国大陆",
+      "regionGroup": "华语",
+      "language": "",
+      "rating": 7.3,
+      "ratingCount": 44718,
+      "directors": [
+        "沈严",
+        "李江明"
+      ],
+      "casts": [
+        "黄景瑜",
+        "蒋奇明"
+      ],
+      "duration": "",
+      "episodes": "",
+      "status": "",
+      "poster": "assets/posters/36554071.jpg",
+      "summary": "该剧讲述了改革开放初期1979年到1997年，陈一众、余高远、张丽慧、夏英杰、陆则铭五个法学院学生毕业后进入了司法领域不同的部门，在如火如荼的司法实践中见证历史、参与历史、与时俱进、不断成长的故事。",
+      "highlights": "",
+      "audience": "",
+      "tag": "📺 热播剧集",
+      "listTag": "hot",
+      "curatorNote": "",
+      "series": "",
+      "wantCount": 0,
+      "oneLine": "",
+      "platforms": []
+    },
+    {
+      "id": "db37817070",
+      "doubanId": "37817070",
+      "title": "脱口秀和Ta的朋友们 第三季",
+      "originalTitle": "",
+      "type": "tv",
+      "genres": [
+        "脱口秀"
+      ],
+      "year": 2026,
+      "region": "中国大陆",
+      "regionGroup": "华语",
+      "language": "",
+      "rating": 7.3,
+      "ratingCount": 17169,
+      "directors": [
+        "贾思皓"
+      ],
+      "casts": [
+        "张绍刚",
+        "陈鲁豫"
+      ],
+      "duration": "",
+      "episodes": "",
+      "status": "",
+      "poster": "assets/posters/37817070.jpg",
+      "summary": "第三季集结54组脱口秀演员，聚集资深老人和新锐潜力新人，阵容多元丰富。本季节目首次引入“竞演+合宿”的双线叙事，演员们不仅在这里同台竞演，还要在一起合宿生活，并在过程中找到志同道合的朋友，相互帮助、相互治愈，完成自我和解与身份认同。",
       "highlights": "",
       "audience": "",
       "tag": "📺 热播剧集",

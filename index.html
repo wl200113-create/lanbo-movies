@@ -487,6 +487,27 @@
     font-size: 12.5px;
     color: var(--ink-soft);
   }
+  .modal .watch-links { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 4px; }
+  .modal .watch-links a {
+    padding: 7px 15px;
+    border: 1px solid var(--ink);
+    color: var(--ink);
+    font-size: 13px;
+    text-decoration: none;
+    background: var(--paper-2);
+    transition: all .18s;
+  }
+  .modal .watch-links a:hover {
+    background: var(--red);
+    border-color: var(--red);
+    color: var(--paper);
+  }
+  .modal .watch-tip {
+    width: 100%;
+    font-size: 11.5px;
+    color: var(--ink-faint);
+    margin-top: 2px;
+  }
   .modal .m-want {
     margin-top: 20px;
     width: 100%;
@@ -583,7 +604,7 @@
   <select class="sort-select" id="sort">
     <option value="rating">按评分排序</option>
     <option value="year">按年份排序</option>
-    <option value="want">按想看人数</option>
+    <option value="count">按评分人数</option>
   </select>
 </div>
 
@@ -673,7 +694,7 @@ function sortList(list) {
   const s = {
     rating: (a,b) => b.rating - a.rating,
     year: (a,b) => (b.year||0) - (a.year||0),
-    want: (a,b) => (b.wantCount||0) - (a.wantCount||0),
+    count: (a,b) => (b.ratingCount||0) - (a.ratingCount||0),
   }[state.sort];
   return [...list].sort(s);
 }
@@ -700,8 +721,8 @@ function cardHTML(m) {
       </div>
       ${m.curatorNote ? `<div class="card-note">馆长说：${esc(m.curatorNote)}</div>` : ''}
       <div class="card-foot">
-        <span>${(m.wantCount||0) + (isW ? 1 : 0)} 人想看</span>
-        <button class="want-btn ${isW ? 'wanted' : ''}" data-want="${esc(m.id)}">${isW ? '♥ 已想看' : '♡ 想看'}</button>
+        <span>${esc(m.region || m.regionGroup || '')}</span>
+        <button class="want-btn ${isW ? 'wanted' : ''}" data-want="${esc(m.id)}">${isW ? '♥ 已收藏' : '♡ 收藏'}</button>
       </div>
     </div>
   </article>`;
@@ -752,6 +773,22 @@ function render() {
   );
 }
 
+// 观看入口：跳转到正规平台的片名搜索页（不聚合任何未授权资源链接）
+function watchLinks(m) {
+  const q = encodeURIComponent(m.title);
+  const list = [
+    { name: '豆瓣详情', url: m.doubanId ? `https://movie.douban.com/subject/${m.doubanId}/` : `https://www.douban.com/search?q=${q}` },
+    { name: '爱奇艺', url: `https://so.iqiyi.com/so/q_${q}` },
+    { name: '腾讯视频', url: `https://v.qq.com/x/search/?q=${q}` },
+    { name: '优酷', url: `https://so.youku.com/search_video/q_${q}` },
+    { name: '芒果TV', url: `https://so.mgtv.com/so?k=${q}` },
+    { name: '哔哩哔哩', url: `https://search.bilibili.com/all?keyword=${q}` },
+  ];
+  return list.map(l =>
+    `<a href="${esc(l.url)}" target="_blank" rel="noopener noreferrer">${esc(l.name)}</a>`
+  ).join('') + `<p class="watch-tip">点击跳转到该平台搜索页，自行确认是否有版权播放源</p>`;
+}
+
 function openModal(id) {
   const m = DATA.movies.find(x => x.id === id);
   if (!m) return;
@@ -768,7 +805,7 @@ function openModal(id) {
     </div>
     <div class="rating-line">
       <span class="score">${m.rating.toFixed(1)}</span>
-      <span class="count">豆瓣 · ${(m.ratingCount||0) >= 10000 ? ((m.ratingCount/10000).toFixed(1)+'万') : m.ratingCount} 人评分<br>${(m.wantCount||0)} 人想看</span>
+      <span class="count">豆瓣 · ${(m.ratingCount||0) >= 10000 ? ((m.ratingCount/10000).toFixed(1)+'万') : m.ratingCount} 人评分</span>
       ${m.series ? `<span class="series-tag">🎞 ${esc(m.series)}</span>` : ''}
     </div>
     <dl>
@@ -785,8 +822,8 @@ function openModal(id) {
     ${m.summary ? `<div class="section-title">剧情简介</div><div class="section-text">${esc(m.summary)}</div>` : ''}
     ${m.highlights ? `<div class="section-title">无剧透看点</div><div class="section-text">${esc(m.highlights)}</div>` : ''}
     ${m.audience ? `<div class="section-title">适合人群</div><div class="section-text">${esc(m.audience)}</div>` : ''}
-    <div class="section-title">观看渠道</div>
-    <div class="platforms">${(m.platforms && m.platforms.length) ? m.platforms.map(p => `<span>${esc(p)}</span>`).join('') : '<span>暂无数据</span>'}</div>
+    <div class="section-title">去哪里看</div>
+    <div class="watch-links">${watchLinks(m)}</div>
     <button class="m-want ${isW ? 'wanted' : ''}" id="mWantBtn">${isW ? '♥ 已加入我的片单' : '♡ 加入我的片单'}</button>
   `;
   mask.classList.add('open');
