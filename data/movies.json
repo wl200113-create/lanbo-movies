@@ -1,0 +1,333 @@
+{
+  "updatedAt": "2026-11-01T13:45:00+08:00",
+  "source": "seed",
+  "minRating": 7.3,
+  "movies": [
+    {
+      "id": "d1",
+      "title": "流浪地球3",
+      "originalTitle": "The Wandering Earth 3",
+      "type": "movie",
+      "genres": [
+        "科幻",
+        "灾难",
+        "冒险"
+      ],
+      "year": 2026,
+      "region": "中国大陆",
+      "language": "汉语普通话",
+      "rating": 7.8,
+      "ratingCount": 152340,
+      "directors": [
+        "郭帆"
+      ],
+      "casts": [
+        "吴京",
+        "刘德华",
+        "李雪健"
+      ],
+      "duration": "173分钟",
+      "poster": "",
+      "summary": "太阳危机持续，人类带着地球继续漫长的宇宙流浪，新的危机与牺牲在等待。",
+      "highlights": "国产科幻工业巅峰续作，视效全面升级；吴京与刘德华双线叙事交织，情感浓度高；硬核设定与家国情怀兼具。",
+      "audience": "喜欢《流浪地球》前两部、硬核科幻迷、大银幕视效党",
+      "tag": "🔥 热映中",
+      "platforms": [
+        "院线"
+      ],
+      "regionGroup": "华语",
+      "listTag": "hot",
+      "curatorNote": "国产科幻的底气之作，大银幕必看。",
+      "series": "流浪地球系列 第3部",
+      "wantCount": 1280,
+      "oneLine": "带着地球去流浪，终章启程。"
+    },
+    {
+      "id": "d2",
+      "title": "庆余年 第三季",
+      "originalTitle": "Joy of Life Season 3",
+      "type": "tv",
+      "genres": [
+        "古装",
+        "权谋",
+        "喜剧"
+      ],
+      "year": 2026,
+      "region": "中国大陆",
+      "language": "汉语普通话",
+      "rating": 7.6,
+      "ratingCount": 88210,
+      "directors": [
+        "孙皓"
+      ],
+      "casts": [
+        "张若昀",
+        "李沁",
+        "陈道明"
+      ],
+      "episodes": "36集",
+      "episodeDuration": "45分钟/集",
+      "status": "更新中",
+      "poster": "",
+      "summary": "范闲在庆国朝堂与江湖之间继续周旋，身世之谜与天下格局逐步揭开。",
+      "highlights": "权谋与幽默平衡得当，群像戏出彩；张若昀演技稳定输出；名场面密集，下饭又烧脑。",
+      "audience": "喜欢权谋剧但不想太沉重的观众、《庆余年》老粉",
+      "tag": "📈 热播中",
+      "platforms": [
+        "腾讯视频"
+      ],
+      "regionGroup": "华语",
+      "listTag": "hot",
+      "curatorNote": "下饭权谋剧的标杆，笑点与局气并存。",
+      "series": "庆余年系列 第3季",
+      "wantCount": 960,
+      "oneLine": "范闲归来，庙堂江湖再掀风云。"
+    },
+    {
+      "id": "d3",
+      "title": "三体 第二季",
+      "originalTitle": "3 Body Problem S2",
+      "type": "tv",
+      "genres": [
+        "科幻",
+        "悬疑"
+      ],
+      "year": 2026,
+      "region": "美国",
+      "language": "英语",
+      "rating": 7.9,
+      "ratingCount": 120560,
+      "directors": [
+        "曾国祥"
+      ],
+      "casts": [
+        "杰茜·洪",
+        "本尼迪克特·王"
+      ],
+      "episodes": "8集",
+      "episodeDuration": "60分钟/集",
+      "status": "已完结",
+      "poster": "",
+      "summary": "面壁计划全面展开，人类与三体文明的博弈进入更黑暗的阶段。",
+      "highlights": "Netflix 重金打造，视效一流；黑暗森林法则的呈现震撼；节奏比第一季更紧凑。",
+      "audience": "刘慈欣原著粉、硬科幻爱好者",
+      "tag": "🔥 热映中",
+      "platforms": [
+        "Netflix"
+      ],
+      "regionGroup": "欧美",
+      "listTag": "hot",
+      "curatorNote": "黑暗森林的视听呈现超出预期。",
+      "series": "三体（Netflix）第2季",
+      "wantCount": 1520,
+      "oneLine": "面壁者与三体文明的终极博弈。"
+    },
+    {
+      "id": "d4",
+      "title": "抓娃娃2",
+      "originalTitle": "",
+      "type": "movie",
+      "genres": [
+        "喜剧",
+        "剧情"
+      ],
+      "year": 2026,
+      "region": "中国大陆",
+      "language": "汉语普通话",
+      "rating": 7.3,
+      "ratingCount": 96400,
+      "directors": [
+        "闫非",
+        "彭大魔"
+      ],
+      "casts": [
+        "沈腾",
+        "马丽"
+      ],
+      "duration": "125分钟",
+      "poster": "",
+      "summary": "西虹市宇宙的全新故事，一场围绕「教育」的荒诞实验再度上演。",
+      "highlights": "沈马组合笑点保证；荒诞设定下藏着对教育焦虑的辛辣讽刺；结尾反转引发讨论。",
+      "audience": "想看轻松喜剧、合家欢观影的观众",
+      "tag": "🔥 热映中",
+      "platforms": [
+        "院线"
+      ],
+      "regionGroup": "华语",
+      "listTag": "hot",
+      "curatorNote": "沈马组合稳定输出，笑完还有点扎心。",
+      "series": "西虹市宇宙",
+      "wantCount": 870,
+      "oneLine": "一场荒诞的教育实验。"
+    },
+    {
+      "id": "d5",
+      "title": "白夜破晓",
+      "originalTitle": "",
+      "type": "tv",
+      "genres": [
+        "悬疑",
+        "犯罪"
+      ],
+      "year": 2025,
+      "region": "中国大陆",
+      "language": "汉语普通话",
+      "rating": 7.4,
+      "ratingCount": 210450,
+      "directors": [
+        "刘英剑"
+      ],
+      "casts": [
+        "潘粤明",
+        "王龙正"
+      ],
+      "episodes": "32集",
+      "episodeDuration": "45分钟/集",
+      "status": "已完结",
+      "poster": "",
+      "summary": "《白夜追凶》续作，关宏峰与关宏宇兄弟继续追查 2·13 灭门案真相。",
+      "highlights": "潘粤明一人分饰两角依然惊艳；七年后原班人马回归，情怀拉满；主线案件层层递进。",
+      "audience": "《白夜追凶》老粉、悬疑刑侦剧爱好者",
+      "tag": "⭐ 高分经典",
+      "platforms": [
+        "优酷"
+      ],
+      "regionGroup": "华语",
+      "listTag": "classic",
+      "curatorNote": "七年等待，兄弟双雄依旧精彩。",
+      "series": "白夜系列",
+      "wantCount": 2100,
+      "oneLine": "白昼与黑夜之间，真相只有一个。"
+    },
+    {
+      "id": "d6",
+      "title": "漫长的季节",
+      "originalTitle": "The Long Season",
+      "type": "tv",
+      "genres": [
+        "悬疑",
+        "剧情"
+      ],
+      "year": 2023,
+      "region": "中国大陆",
+      "language": "汉语普通话",
+      "rating": 9.4,
+      "ratingCount": 980000,
+      "directors": [
+        "辛爽"
+      ],
+      "casts": [
+        "范伟",
+        "秦昊",
+        "陈明昊"
+      ],
+      "episodes": "12集",
+      "episodeDuration": "70分钟/集",
+      "status": "已完结",
+      "poster": "",
+      "summary": "东北小城桦林，一桩碎尸案串联起三个年代的悲欢离合。",
+      "highlights": "豆瓣 9.4 分神剧，近十年国剧天花板之一；范伟封神级表演；时代挽歌与悬疑叙事完美融合。",
+      "audience": "追求品质的剧迷、喜欢慢节奏叙事的观众",
+      "tag": "⭐ 高分经典",
+      "platforms": [
+        "腾讯视频"
+      ],
+      "regionGroup": "华语",
+      "listTag": "classic",
+      "curatorNote": "近十年国剧天花板，没看过是人生遗憾。",
+      "series": "",
+      "wantCount": 5600,
+      "oneLine": "东北往事的命运挽歌。"
+    },
+    {
+      "id": "d7",
+      "title": "沙丘3",
+      "originalTitle": "Dune: Part Three",
+      "type": "movie",
+      "genres": [
+        "科幻",
+        "史诗"
+      ],
+      "year": 2026,
+      "region": "美国",
+      "language": "英语",
+      "rating": 8.1,
+      "ratingCount": 45600,
+      "directors": [
+        "丹尼斯·维伦纽瓦"
+      ],
+      "casts": [
+        "提莫西·查拉梅",
+        "赞达亚"
+      ],
+      "duration": "160分钟",
+      "poster": "",
+      "summary": "保罗·厄崔迪登基后的圣战阴影，《沙丘救世主》的黑暗篇章开启。",
+      "highlights": "维伦纽瓦三部曲终章；视听美学天花板，必须大银幕；甜茶演绎黑化的保罗层次丰富。",
+      "audience": "科幻史诗爱好者、维伦纽瓦影迷",
+      "tag": "🔥 热映中",
+      "platforms": [
+        "院线"
+      ],
+      "regionGroup": "欧美",
+      "listTag": "hot",
+      "curatorNote": "维伦纽瓦的科幻史诗画上句点，视听天花板。",
+      "series": "沙丘系列 第3部",
+      "wantCount": 1890,
+      "oneLine": "救世主的黑化，圣战的序章。"
+    },
+    {
+      "id": "d8",
+      "title": "国色芳华",
+      "originalTitle": "",
+      "type": "tv",
+      "genres": [
+        "古装",
+        "剧情",
+        "爱情"
+      ],
+      "year": 2025,
+      "region": "中国大陆",
+      "language": "汉语普通话",
+      "rating": 7.5,
+      "ratingCount": 156000,
+      "directors": [
+        "丁梓光"
+      ],
+      "casts": [
+        "杨紫",
+        "李现"
+      ],
+      "episodes": "32集",
+      "episodeDuration": "45分钟/集",
+      "status": "已完结",
+      "poster": "",
+      "summary": "唐代商户之女何惟芳以牡丹为业，在长安闯出自己的一片天地。",
+      "highlights": "服化道精美，唐风审美在线；女性创业题材不悬浮；杨紫李现二搭默契十足。",
+      "audience": "古装剧爱好者、喜欢大女主成长线的观众",
+      "tag": "⭐ 高分经典",
+      "platforms": [
+        "芒果TV"
+      ],
+      "regionGroup": "华语",
+      "listTag": "classic",
+      "curatorNote": "唐风美学教科书，大女主搞事业。",
+      "series": "",
+      "wantCount": 1350,
+      "oneLine": "牡丹花开，长安女子闯天地。"
+    }
+  ],
+  "curator": {
+    "name": "Lanbo",
+    "title": "馆长 · 策展人",
+    "motto": "只收藏值得花两小时的好片子。"
+  },
+  "hotKeywords": [
+    "科幻",
+    "悬疑烧脑",
+    "沈腾",
+    "Netflix",
+    "古装",
+    "豆瓣9分"
+  ]
+}
