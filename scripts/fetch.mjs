@@ -4,7 +4,7 @@
 // 逻辑: 从公开豆瓣数据接口抓取热映+热门剧集，过滤评分 >= 7.3，写入 data/movies.json
 //       抓取失败时保留旧数据，只更新时间戳中的 lastAttempt
 
-import { readFileSync, writeFileSync } from 'node:fs';
+import { readFileSync, writeFileSync, mkdirSync, statSync } from 'node:fs';
 import { fileURLToPath } from 'node:url';
 import { dirname, join } from 'node:path';
 
@@ -75,12 +75,10 @@ function names(list) {
 }
 
 // 角标分级：每部片最多一个，按优先级取（空字符串 = 不显示角标）
-// 🏆 神作(>=9.0) > ⭐ 高分佳作(>=8.5) > 🔥 院线热映(近两年) > 📺 热播剧集 > 📈 黑马飙升(评分人数<3万)
+// 🏆 神作(>=9.0) > ⭐ 高分佳作(>=8.5) > 📺 热播剧集 > 📈 黑马飙升(评分人数<3万)
 function badgeOf({ rating, ratingCount, year, type, sourceKey }) {
-  const thisYear = new Date().getFullYear();
   if (rating >= 9.0) return '🏆 神作';
   if (rating >= 8.5) return '⭐ 高分佳作';
-  if (sourceKey === 'movie_showing' && year && year >= thisYear - 1) return '🔥 院线热映';
   if (type === 'tv') return '📺 热播剧集';
   if (ratingCount < 30000) return '📈 黑马飙升';
   return '';
@@ -138,12 +136,48 @@ async function fetchSource(src) {
   return items.map(i => mapItem(i, src.type, src.key)).filter(isQualified);
 }
 
+// 豆瓣图床有防盗链：不带豆瓣 Referer 会返回 418 + 占位图，浏览器无法伪造 Referer，
+// 所以抓取时把海报下载到 assets/posters/，网站直接用本地文件。
+const POSTER_DIR = join(__dirname, '..', 'assets', 'posters');
+const POSTER_HEADERS = {
+  'User-Agent': HEADERS['User-Agent'],
+  'Referer': 'https://movie.douban.com/',
+};
+
+async function downloadPoster(m) {
+  if (!m.doubanId) return;
+  const file = join(POSTER_DIR, `${m.doubanId}.jpg`);
+  const rel = `assets/posters/${m.doubanId}.jpg`;
+  // 已下载过就不重复拉取
+  try {
+    const st = statSync(file);
+    if (st.size > 1024) { m.poster = rel; return; }
+  } catch { /* 尚未下载 */ }
+  if (!m.poster || !/^https?:/.test(m.poster)) return;
+  try {
+    const res = await fetch(m.poster, { headers: POSTER_HEADERS, signal: AbortSignal.timeout(20000) });
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    const buf = Buffer.from(await res.arrayBuffer());
+    // 防盗链占位图只有十几字节，过滤掉
+    if (buf.byteLength < 1024) throw new Error('返回占位图，可能被防盗链拦截');
+    writeFileSync(file, buf);
+    m.poster = rel;
+    console.log(`  🖼  海报已保存: ${m.title}`);
+  } catch (e) {
+    console.warn(`  ⚠️ 海报下载失败(${m.title}): ${e.message}`);
+    m.poster = '';
+  }
+}
+
 async function main() {
   const now = new Date().toISOString();
   let old = { movies: [] };
   try {
     old = JSON.parse(readFileSync(DATA_FILE, 'utf8'));
   } catch { /* 首次运行没有旧文件 */ }
+
+  // 确保海报目录存在
+  mkdirSync(POSTER_DIR, { recursive: true });
 
   const results = [];
   const errors = [];
@@ -185,7 +219,17 @@ async function main() {
     }
   }
 
-  const movies = [...seen.values()].sort((a, b) => b.rating - a.rating);
+  // 下载海报到本地（并发 4，避免打太快）
+  const list = [...seen.values()];
+  console.log(`🖼  开始下载 ${list.length} 张海报…`);
+  let cursor = 0;
+  await Promise.all(Array.from({ length: 4 }, async () => {
+    while (cursor < list.length) {
+      await downloadPoster(list[cursor++]);
+    }
+  }));
+
+  const movies = list.sort((a, b) => b.rating - a.rating);
   const out = {
     updatedAt: now,
     source: 'douban-mirror',
@@ -195,7 +239,8 @@ async function main() {
     movies,
   };
   writeFileSync(DATA_FILE, JSON.stringify(out, null, 2), 'utf8');
-  console.log(`🎬 已写入 ${movies.length} 部影片 -> data/movies.json`);
+  const okCount = movies.filter(m => m.poster).length;
+  console.log(`🎬 已写入 ${movies.length} 部影片（海报 ${okCount}/${movies.length}）-> data/movies.json`);
 }
 
 main().catch(e => {

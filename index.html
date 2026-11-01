@@ -277,7 +277,7 @@
   }
   .poster {
     position: relative;
-    aspect-ratio: 3/2;
+    aspect-ratio: 2/3;
     background:
       linear-gradient(135deg, #2a241d 0%, #3d352b 100%);
     display: flex;
@@ -286,7 +286,14 @@
     border-bottom: 1.5px solid var(--ink);
     overflow: hidden;
   }
-  .poster img { width: 100%; height: 100%; object-fit: cover; }
+  .poster img {
+    width: 100%; height: 100%;
+    object-fit: cover;
+    display: block;
+    background: #2a241d;
+    transition: transform .35s;
+  }
+  .card:hover .poster img { transform: scale(1.04); }
   .poster .fallback {
     text-align: center;
     color: var(--paper);
@@ -409,6 +416,16 @@
     cursor: pointer;
   }
   .modal .close:hover { color: var(--red); }
+  .modal .m-head { display: flex; gap: 20px; align-items: flex-start; margin-bottom: 6px; }
+  .modal .m-poster {
+    width: 112px;
+    flex: 0 0 112px;
+    aspect-ratio: 2/3;
+    object-fit: cover;
+    border: 1.5px solid var(--ink);
+    box-shadow: 3px 3px 0 rgba(29,26,22,.18);
+  }
+  .modal .m-headtext { flex: 1; min-width: 0; }
   .modal .m-stamp {
     font-size: 11px;
     letter-spacing: 3px;
@@ -667,7 +684,8 @@ function cardHTML(m) {
   <article class="card" data-id="${esc(m.id)}">
     <div class="poster">
       ${m.poster
-        ? `<img src="${esc(m.poster)}" alt="${esc(m.title)}" loading="lazy" referrerpolicy="no-referrer">`
+        ? `<img src="${esc(m.poster)}" alt="${esc(m.title)}" loading="lazy"
+             onerror="this.style.display='none';this.parentNode.insertAdjacentHTML('afterbegin',this.dataset.fb)" data-fb="&lt;div class='fallback'&gt;&lt;span class='icon'&gt;${m.type === 'tv' ? '📺' : '🎬'}&lt;/span&gt;&lt;span class='t'&gt;${esc(m.title).replace(/"/g,'&quot;')}&lt;/span&gt;&lt;/div&gt;">`
         : `<div class="fallback"><span class="icon">${m.type === 'tv' ? '📺' : '🎬'}</span><span class="t">${esc(m.title)}</span></div>`}
       ${m.tag ? `<span class="ribbon">${esc(m.tag)}</span>` : ''}
       <span class="rating">${m.rating.toFixed(1)}</span>
@@ -740,9 +758,14 @@ function openModal(id) {
   const isW = wanted.has(m.id);
   modal.innerHTML = `
     <button class="close" id="closeBtn">✕</button>
-    <div class="m-stamp">LANBO 馆藏书目 · NO.${esc(String(m.id).slice(-4).toUpperCase())}</div>
-    <h2>${esc(m.title)}</h2>
-    ${m.originalTitle ? `<div class="orig">${esc(m.originalTitle)}</div>` : ''}
+    <div class="m-head">
+      ${m.poster ? `<img class="m-poster" src="${esc(m.poster)}" alt="${esc(m.title)}" onerror="this.remove()">` : ''}
+      <div class="m-headtext">
+        <div class="m-stamp">LANBO 馆藏书目 · NO.${esc(String(m.id).slice(-4).toUpperCase())}</div>
+        <h2>${esc(m.title)}</h2>
+        ${m.originalTitle ? `<div class="orig">${esc(m.originalTitle)}</div>` : ''}
+      </div>
+    </div>
     <div class="rating-line">
       <span class="score">${m.rating.toFixed(1)}</span>
       <span class="count">豆瓣 · ${(m.ratingCount||0) >= 10000 ? ((m.ratingCount/10000).toFixed(1)+'万') : m.ratingCount} 人评分<br>${(m.wantCount||0)} 人想看</span>
