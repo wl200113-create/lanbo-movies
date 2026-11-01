@@ -17,16 +17,19 @@ const MIN_RATING_COUNT = 5000; // 评分人数下限，过滤冷门片
 const SOURCES = [
   {
     name: '热映电影',
+    key: 'movie_showing',
     url: 'https://m.douban.com/rexxar/api/v2/subject_collection/movie_showing/items?start=0&count=30',
     type: 'movie',
   },
   {
     name: '热门剧集',
+    key: 'tv_hot',
     url: 'https://m.douban.com/rexxar/api/v2/subject_collection/tv_hot/items?start=0&count=30',
     type: 'tv',
   },
   {
     name: '热门国产剧',
+    key: 'tv_domestic',
     url: 'https://m.douban.com/rexxar/api/v2/subject_collection/tv_domestic/items?start=0&count=20',
     type: 'tv',
   },
@@ -71,13 +74,26 @@ function names(list) {
   return (list || []).map(x => (typeof x === 'string' ? x : x?.name)).filter(Boolean);
 }
 
-function mapItem(item, type) {
+// 角标分级：每部片最多一个，按优先级取（空字符串 = 不显示角标）
+// 🏆 神作(>=9.0) > ⭐ 高分佳作(>=8.5) > 🔥 院线热映(近两年) > 📺 热播剧集 > 📈 黑马飙升(评分人数<3万)
+function badgeOf({ rating, ratingCount, year, type, sourceKey }) {
+  const thisYear = new Date().getFullYear();
+  if (rating >= 9.0) return '🏆 神作';
+  if (rating >= 8.5) return '⭐ 高分佳作';
+  if (sourceKey === 'movie_showing' && year && year >= thisYear - 1) return '🔥 院线热映';
+  if (type === 'tv') return '📺 热播剧集';
+  if (ratingCount < 30000) return '📈 黑马飙升';
+  return '';
+}
+
+function mapItem(item, type, sourceKey) {
   const rating = item.rating?.value ?? 0;
   const ratingCount = item.rating?.count ?? 0;
   const sub = parseSubtitle(item.card_subtitle || '');
   // 剧集接口常直接给简介长文本（没有年份/地区结构），此时 subtitle 就是简介本身
   const subIsSummary = (item.card_subtitle || '') && !/^\d{4}\s*\//.test(item.card_subtitle.trim());
   const region = (item.countries || []).join('/') || sub.region;
+  const year = parseInt(item.year, 10) || sub.year;
   return {
     id: item.id ? `db${item.id}` : `tmp_${item.title}`,
     doubanId: item.id || '',
@@ -85,7 +101,7 @@ function mapItem(item, type) {
     originalTitle: item.original_title || '',
     type,
     genres: (item.genres && item.genres.length) ? item.genres : sub.genres,
-    year: parseInt(item.year, 10) || sub.year,
+    year,
     region,
     regionGroup: regionGroupOf(region),
     language: '',
@@ -100,8 +116,8 @@ function mapItem(item, type) {
     summary: item.comment || (subIsSummary ? item.card_subtitle : '') || '',
     highlights: '', // AI 看点由本地补充，抓取数据不含
     audience: '',
-    tag: '🔥 热映中',
-    listTag: 'hot',
+    tag: badgeOf({ rating, ratingCount, year, type, sourceKey }),
+    listTag: sourceKey === 'movie_showing' || sourceKey === 'tv_hot' ? 'hot' : 'classic',
     curatorNote: '',
     series: '',
     wantCount: 0,
@@ -119,7 +135,7 @@ async function fetchSource(src) {
   if (!res.ok) throw new Error(`${src.name} HTTP ${res.status}`);
   const json = await res.json();
   const items = json.subject_collection_items || [];
-  return items.map(i => mapItem(i, src.type)).filter(isQualified);
+  return items.map(i => mapItem(i, src.type, src.key)).filter(isQualified);
 }
 
 async function main() {
