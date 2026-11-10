@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-09T10:44:46.718Z",
+  "updatedAt": "2026-11-10T00:31:20.513Z",
   "source": "douban-mirror",
   "minRating": 7.3,
   "curator": {
@@ -31,14 +31,13 @@
       "regionGroup": "欧美",
       "language": "",
       "rating": 9.7,
-      "ratingCount": 3363385,
+      "ratingCount": 3363498,
       "directors": [
         "弗兰克·德拉邦特"
       ],
       "casts": [
         "蒂姆·罗宾斯",
-        "摩根·弗里曼",
-        "鲍勃·冈顿"
+        "摩根·弗里曼"
       ],
       "duration": "",
       "episodes": "",
@@ -47,8 +46,8 @@
       "summary": "",
       "highlights": "",
       "audience": "",
-      "tag": "🏆 神作",
-      "listTag": "hot",
+      "tag": "",
+      "listTag": "classic",
       "curatorNote": "",
       "series": "",
       "wantCount": 0,
@@ -71,7 +70,7 @@
       "regionGroup": "华语",
       "language": "",
       "rating": 9.6,
-      "ratingCount": 2464666,
+      "ratingCount": 2464769,
       "directors": [
         "陈凯歌"
       ],
@@ -111,7 +110,7 @@
       "regionGroup": "欧美",
       "language": "",
       "rating": 9.6,
-      "ratingCount": 768536,
+      "ratingCount": 768589,
       "directors": [
         "比利·怀尔德"
       ],
@@ -150,7 +149,7 @@
       "regionGroup": "欧美",
       "language": "",
       "rating": 9.6,
-      "ratingCount": 17469,
+      "ratingCount": 17501,
       "directors": [
         "杰里米·克拉克森",
         "凯勒布·库珀"
@@ -187,7 +186,7 @@
       "regionGroup": "欧美",
       "language": "",
       "rating": 9.5,
-      "ratingCount": 2542204,
+      "ratingCount": 2542291,
       "directors": [
         "詹姆斯·卡梅隆"
       ],
@@ -225,7 +224,7 @@
       "regionGroup": "欧美",
       "language": "",
       "rating": 9.5,
-      "ratingCount": 2467943,
+      "ratingCount": 2468021,
       "directors": [
         "罗伯特·泽米吉斯"
       ],
@@ -265,7 +264,7 @@
       "regionGroup": "欧美",
       "language": "",
       "rating": 9.5,
-      "ratingCount": 1504950,
+      "ratingCount": 1505009,
       "directors": [
         "罗伯托·贝尼尼"
       ],
@@ -304,7 +303,7 @@
       "regionGroup": "欧美",
       "language": "",
       "rating": 9.5,
-      "ratingCount": 1265597,
+      "ratingCount": 1265642,
       "directors": [
         "史蒂文·斯皮尔伯格"
       ],
@@ -343,7 +342,7 @@
       "regionGroup": "日韩",
       "language": "",
       "rating": 9.4,
-      "ratingCount": 2580744,
+      "ratingCount": 2580842,
       "directors": [
         "宫崎骏"
       ],
@@ -382,7 +381,7 @@
       "regionGroup": "欧美",
       "language": "",
       "rating": 9.4,
-      "ratingCount": 2239045,
+      "ratingCount": 2239157,
       "directors": [
         "克里斯托弗·诺兰"
       ],
@@ -421,7 +420,7 @@
       "regionGroup": "欧美",
       "language": "",
       "rating": 9.4,
-      "ratingCount": 2586341,
+      "ratingCount": 2586421,
       "directors": [
         "吕克·贝松"
       ],
@@ -461,7 +460,7 @@
       "regionGroup": "欧美",
       "language": "",
       "rating": 9.4,
-      "ratingCount": 2367504,
+      "ratingCount": 2367599,
       "directors": [
         "克里斯托弗·诺兰"
       ],
@@ -499,7 +498,7 @@
       "regionGroup": "欧美",
       "language": "",
       "rating": 9.4,
-      "ratingCount": 2062216,
+      "ratingCount": 2062329,
       "directors": [
         "彼得·威尔"
       ],
@@ -536,7 +535,7 @@
       "regionGroup": "欧美",
       "language": "",
       "rating": 9.4,
-      "ratingCount": 1564500,
+      "ratingCount": 1564565,
       "directors": [
         "拉斯·霍尔斯道姆"
       ],
@@ -573,7 +572,7 @@
       "regionGroup": "欧美",
       "language": "",
       "rating": 9.4,
-      "ratingCount": 592682,
+      "ratingCount": 592715,
       "directors": [
         "西德尼·吕美特"
       ],
@@ -600,7 +599,7 @@
       "id": "db1292001",
       "doubanId": "1292001",
       "title": "海上钢琴师",
-      "originalTitle": "",
+      "originalTitle": "La leggenda del pianista sull'oceano",
       "type": "movie",
       "genres": [
         "剧情",
@@ -611,7 +610,7 @@
       "regionGroup": "欧美",
       "language": "",
       "rating": 9.3,
-      "ratingCount": 1907825,
+      "ratingCount": 1907884,
       "directors": [
         "朱塞佩·托纳多雷"
       ],
@@ -651,7 +650,7 @@
       "regionGroup": "欧美",
       "language": "",
       "rating": 9.3,
-      "ratingCount": 2368326,
+      "ratingCount": 2368425,
       "directors": [
         "拜伦·霍华德",
         "瑞奇·摩尔"
@@ -691,7 +690,7 @@
       "regionGroup": "欧美",
       "language": "",
       "rating": 9.3,
-      "ratingCount": 1531221,
+      "ratingCount": 1531285,
       "directors": [
         "安德鲁·斯坦顿"
       ],
@@ -729,7 +728,7 @@
       "regionGroup": "欧美",
       "language": "",
       "rating": 9.3,
-      "ratingCount": 1497341,
+      "ratingCount": 1497405,
       "directors": [
         "克里斯托夫·巴哈蒂"
       ],
@@ -768,7 +767,7 @@
       "regionGroup": "华语",
       "language": "",
       "rating": 9.3,
-      "ratingCount": 1594794,
+      "ratingCount": 1594863,
       "directors": [
         "刘伟强",
         "麦兆辉"
@@ -806,7 +805,7 @@
       "regionGroup": "日韩",
       "language": "",
       "rating": 9.3,
-      "ratingCount": 1050208,
+      "ratingCount": 1050247,
       "directors": [
         "黄东赫"
       ],
@@ -844,7 +843,7 @@
       "regionGroup": "欧美",
       "language": "",
       "rating": 9.3,
-      "ratingCount": 1320971,
+      "ratingCount": 1321024,
       "directors": [
         "奥利维埃·纳卡什",
         "埃里克·托莱达诺"
@@ -883,7 +882,7 @@
       "regionGroup": "欧美",
       "language": "",
       "rating": 9.3,
-      "ratingCount": 1129061,
+      "ratingCount": 1129119,
       "directors": [
         "弗朗西斯·福特·科波拉"
       ],
@@ -922,7 +921,7 @@
       "regionGroup": "华语",
       "language": "",
       "rating": 9.3,
-      "ratingCount": 1049451,
+      "ratingCount": 1049511,
       "directors": [
         "贝纳尔多·贝托鲁奇"
       ],
@@ -961,7 +960,7 @@
       "regionGroup": "华语",
       "language": "",
       "rating": 9.3,
-      "ratingCount": 989354,
+      "ratingCount": 989410,
       "directors": [
         "张艺谋"
       ],
@@ -1001,7 +1000,7 @@
       "regionGroup": "欧美",
       "language": "",
       "rating": 9.3,
-      "ratingCount": 928206,
+      "ratingCount": 928259,
       "directors": [
         "彼得·杰克逊"
       ],
@@ -1041,7 +1040,7 @@
       "regionGroup": "欧美",
       "language": "",
       "rating": 9.3,
-      "ratingCount": 813169,
+      "ratingCount": 813212,
       "directors": [
         "维克多·弗莱明",
         "乔治·库克"
@@ -1081,7 +1080,7 @@
       "regionGroup": "欧美",
       "language": "",
       "rating": 9.3,
-      "ratingCount": 808750,
+      "ratingCount": 808808,
       "directors": [
         "阿兰·葛斯彭纳"
       ],
@@ -1118,7 +1117,7 @@
       "regionGroup": "日韩",
       "language": "",
       "rating": 9.3,
-      "ratingCount": 789272,
+      "ratingCount": 789312,
       "directors": [
         "李濬益"
       ],
@@ -1156,7 +1155,7 @@
       "regionGroup": "华语",
       "language": "",
       "rating": 9.3,
-      "ratingCount": 729924,
+      "ratingCount": 729959,
       "directors": [
         "姜文"
       ],
@@ -1196,7 +1195,7 @@
       "regionGroup": "欧美",
       "language": "",
       "rating": 9.3,
-      "ratingCount": 764949,
+      "ratingCount": 764984,
       "directors": [
         "罗曼·波兰斯基"
       ],
@@ -1236,7 +1235,7 @@
       "regionGroup": "其他",
       "language": "",
       "rating": 9.2,
-      "ratingCount": 2110564,
+      "ratingCount": 2110642,
       "directors": [
         "拉吉库马尔·希拉尼"
       ],
@@ -1276,7 +1275,7 @@
       "regionGroup": "华语",
       "language": "",
       "rating": 9.2,
-      "ratingCount": 1736519,
+      "ratingCount": 1736575,
       "directors": [
         "刘镇伟"
       ],
@@ -1314,7 +1313,7 @@
       "regionGroup": "欧美",
       "language": "",
       "rating": 9.2,
-      "ratingCount": 1454956,
+      "ratingCount": 1455037,
       "directors": [
         "克里斯·哥伦布"
       ],
@@ -1353,7 +1352,7 @@
       "regionGroup": "日韩",
       "language": "",
       "rating": 9.2,
-      "ratingCount": 1432728,
+      "ratingCount": 1432774,
       "directors": [
         "宫崎骏"
       ],
@@ -1394,7 +1393,7 @@
       "regionGroup": "欧美",
       "language": "",
       "rating": 9.2,
-      "ratingCount": 1218198,
+      "ratingCount": 1218251,
       "directors": [
         "克里斯托弗·诺兰"
       ],
@@ -1433,7 +1432,7 @@
       "regionGroup": "日韩",
       "language": "",
       "rating": 9.2,
-      "ratingCount": 1026027,
+      "ratingCount": 1026072,
       "directors": [
         "宫崎骏"
       ],
@@ -1470,7 +1469,7 @@
       "regionGroup": "欧美",
       "language": "",
       "rating": 9.2,
-      "ratingCount": 906443,
+      "ratingCount": 906494,
       "directors": [
         "彼得·威尔"
       ],
@@ -1510,7 +1509,7 @@
       "regionGroup": "欧美",
       "language": "",
       "rating": 9.2,
-      "ratingCount": 874830,
+      "ratingCount": 874877,
       "directors": [
         "彼得·杰克逊"
       ],
@@ -1550,7 +1549,7 @@
       "regionGroup": "欧美",
       "language": "",
       "rating": 9.1,
-      "ratingCount": 2037791,
+      "ratingCount": 2037920,
       "directors": [
         "李·昂克里奇",
         "阿德里安·莫利纳"
@@ -1590,7 +1589,7 @@
       "regionGroup": "欧美",
       "language": "",
       "rating": 9.1,
-      "ratingCount": 1713170,
+      "ratingCount": 1713230,
       "directors": [
         "加布里埃莱·穆奇诺"
       ],
@@ -1629,7 +1628,7 @@
       "regionGroup": "欧美",
       "language": "",
       "rating": 9.1,
-      "ratingCount": 2082695,
+      "ratingCount": 2082767,
       "directors": [
         "罗伯·莱纳"
       ],
@@ -1669,7 +1668,7 @@
       "regionGroup": "欧美",
       "language": "",
       "rating": 9.1,
-      "ratingCount": 1527725,
+      "ratingCount": 1527781,
       "directors": [
         "彼特·道格特",
         "鲍勃·彼德森"
@@ -1710,7 +1709,7 @@
       "regionGroup": "日韩",
       "language": "",
       "rating": 9.1,
-      "ratingCount": 1320904,
+      "ratingCount": 1320970,
       "directors": [
         "宫崎骏"
       ],
@@ -1749,7 +1748,7 @@
       "regionGroup": "欧美",
       "language": "",
       "rating": 9.1,
-      "ratingCount": 1238011,
+      "ratingCount": 1238076,
       "directors": [
         "史蒂文·斯皮尔伯格"
       ],
@@ -1788,7 +1787,7 @@
       "regionGroup": "华语",
       "language": "",
       "rating": 9.1,
-      "ratingCount": 1510988,
+      "ratingCount": 1511051,
       "directors": [
         "李安"
       ],
@@ -1826,7 +1825,7 @@
       "regionGroup": "华语",
       "language": "",
       "rating": 9,
-      "ratingCount": 2389704,
+      "ratingCount": 2389785,
       "directors": [
         "文牧野"
       ],
@@ -1866,7 +1865,7 @@
       "regionGroup": "华语",
       "language": "",
       "rating": 9,
-      "ratingCount": 1950151,
+      "ratingCount": 1950225,
       "directors": [
         "姜文"
       ],
@@ -1906,7 +1905,7 @@
       "regionGroup": "其他",
       "language": "",
       "rating": 9,
-      "ratingCount": 1774475,
+      "ratingCount": 1774560,
       "directors": [
         "涅提·蒂瓦里"
       ],
@@ -1946,7 +1945,7 @@
       "regionGroup": "华语",
       "language": "",
       "rating": 9,
-      "ratingCount": 1389902,
+      "ratingCount": 1389957,
       "directors": [
         "刘镇伟"
       ],
@@ -1983,7 +1982,7 @@
       "regionGroup": "日韩",
       "language": "",
       "rating": 9,
-      "ratingCount": 6895,
+      "ratingCount": 6899,
       "directors": [
         "李应福"
       ],
@@ -2020,7 +2019,7 @@
       "regionGroup": "其他",
       "language": "",
       "rating": 8.9,
-      "ratingCount": 32818,
+      "ratingCount": 33107,
       "directors": [
         "萨拉·戈赫尔"
       ],
@@ -2061,7 +2060,7 @@
       "regionGroup": "华语",
       "language": "",
       "rating": 8.9,
-      "ratingCount": 1928534,
+      "ratingCount": 1928619,
       "directors": [
         "彼得·法雷里"
       ],
@@ -2098,7 +2097,7 @@
       "regionGroup": "日韩",
       "language": "",
       "rating": 8.8,
-      "ratingCount": 5039,
+      "ratingCount": 5061,
       "directors": [
         "李连福",
         "金浩允"
@@ -2135,7 +2134,7 @@
       "regionGroup": "欧美",
       "language": "",
       "rating": 8.7,
-      "ratingCount": 26260,
+      "ratingCount": 27046,
       "directors": [
         "哈维尔·安布罗希",
         "哈维尔·卡尔沃"
@@ -2174,7 +2173,7 @@
       "regionGroup": "日韩",
       "language": "",
       "rating": 8.7,
-      "ratingCount": 26975,
+      "ratingCount": 30278,
       "directors": [
         "李沧东"
       ],
@@ -2198,6 +2197,45 @@
       "platforms": []
     },
     {
+      "id": "db37806882",
+      "doubanId": "37806882",
+      "title": "我的有罪之人",
+      "originalTitle": "",
+      "type": "tv",
+      "genres": [
+        "剧情",
+        "喜剧",
+        "爱情"
+      ],
+      "year": 2026,
+      "region": "韩国",
+      "regionGroup": "日韩",
+      "language": "",
+      "rating": 8.7,
+      "ratingCount": 6184,
+      "directors": [
+        "朴丹熙"
+      ],
+      "casts": [
+        "任时完",
+        "薛仁雅"
+      ],
+      "duration": "",
+      "episodes": "",
+      "status": "",
+      "poster": "assets/posters/37806882.jpg",
+      "summary": "该剧改编自同名小说和网漫，讲述大韩民国首屈一指的企业财阀三世兼女秘书杀人事件的嫌疑人尹伊俊，和以比一般男性更优越的力量，特殊部队出身的警察姜在熙，女扮男装的浪漫喜剧。\n任时完饰演虽然是温室里长大的财阀三代，但也是杀人事件的嫌疑人尹伊俊一角，是一个四次元的角色。\n薛仁雅饰演女扮男装，伪装成尹伊俊的随行秘书兼警卫员就业，紧密调查他的Girl Crush铁壁女姜在熙一角。",
+      "highlights": "",
+      "audience": "",
+      "tag": "⭐ 高分佳作",
+      "listTag": "hot",
+      "curatorNote": "",
+      "series": "",
+      "wantCount": 0,
+      "oneLine": "",
+      "platforms": []
+    },
+    {
       "id": "db37100984",
       "doubanId": "37100984",
       "title": "后会友期",
@@ -2211,7 +2249,7 @@
       "regionGroup": "华语",
       "language": "",
       "rating": 8.7,
-      "ratingCount": 35339,
+      "ratingCount": 36637,
       "directors": [
         "赵文海"
       ],
@@ -2251,7 +2289,7 @@
       "regionGroup": "欧美",
       "language": "",
       "rating": 8.6,
-      "ratingCount": 578445,
+      "ratingCount": 579370,
       "directors": [
         "克里斯托弗·诺兰"
       ],
@@ -2265,45 +2303,6 @@
       "status": "",
       "poster": "assets/posters/36808876.jpg",
       "summary": "",
-      "highlights": "",
-      "audience": "",
-      "tag": "⭐ 高分佳作",
-      "listTag": "hot",
-      "curatorNote": "",
-      "series": "",
-      "wantCount": 0,
-      "oneLine": "",
-      "platforms": []
-    },
-    {
-      "id": "db37806882",
-      "doubanId": "37806882",
-      "title": "我的有罪之人",
-      "originalTitle": "",
-      "type": "tv",
-      "genres": [
-        "剧情",
-        "喜剧",
-        "爱情"
-      ],
-      "year": 2026,
-      "region": "韩国",
-      "regionGroup": "日韩",
-      "language": "",
-      "rating": 8.6,
-      "ratingCount": 5786,
-      "directors": [
-        "朴丹熙"
-      ],
-      "casts": [
-        "任时完",
-        "薛仁雅"
-      ],
-      "duration": "",
-      "episodes": "",
-      "status": "",
-      "poster": "assets/posters/37806882.jpg",
-      "summary": "该剧改编自同名小说和网漫，讲述大韩民国首屈一指的企业财阀三世兼女秘书杀人事件的嫌疑人尹伊俊，和以比一般男性更优越的力量，特殊部队出身的警察姜在熙，女扮男装的浪漫喜剧。\n任时完饰演虽然是温室里长大的财阀三代，但也是杀人事件的嫌疑人尹伊俊一角，是一个四次元的角色。\n薛仁雅饰演女扮男装，伪装成尹伊俊的随行秘书兼警卫员就业，紧密调查他的Girl Crush铁壁女姜在熙一角。",
       "highlights": "",
       "audience": "",
       "tag": "⭐ 高分佳作",
@@ -2330,7 +2329,7 @@
       "regionGroup": "华语",
       "language": "",
       "rating": 8.6,
-      "ratingCount": 13801,
+      "ratingCount": 14028,
       "directors": [
         "张永新"
       ],
@@ -2370,7 +2369,7 @@
       "regionGroup": "欧美",
       "language": "",
       "rating": 8.6,
-      "ratingCount": 6721,
+      "ratingCount": 6781,
       "directors": [
         "克里斯托弗·J·伯恩",
         "甘加·蒙泰罗"
@@ -2411,7 +2410,7 @@
       "regionGroup": "华语",
       "language": "",
       "rating": 8.5,
-      "ratingCount": 246128,
+      "ratingCount": 246187,
       "directors": [
         "程小东"
       ],
@@ -2451,7 +2450,7 @@
       "regionGroup": "欧美",
       "language": "",
       "rating": 8.4,
-      "ratingCount": 11496,
+      "ratingCount": 11528,
       "directors": [
         "盖·里奇"
       ],
@@ -2490,7 +2489,7 @@
       "regionGroup": "欧美",
       "language": "",
       "rating": 8.3,
-      "ratingCount": 27043,
+      "ratingCount": 27205,
       "directors": [
         "丽贝卡·加特沃德"
       ],
@@ -2528,7 +2527,7 @@
       "regionGroup": "日韩",
       "language": "",
       "rating": 8.3,
-      "ratingCount": 5141,
+      "ratingCount": 5278,
       "directors": [
         "金子文纪",
         "坂上卓哉"
@@ -2568,7 +2567,7 @@
       "regionGroup": "日韩",
       "language": "",
       "rating": 8.3,
-      "ratingCount": 11238,
+      "ratingCount": 11360,
       "directors": [
         "李正林"
       ],
@@ -2605,7 +2604,7 @@
       "regionGroup": "华语",
       "language": "",
       "rating": 8,
-      "ratingCount": 294384,
+      "ratingCount": 295235,
       "directors": [
         "张晓波"
       ],
@@ -2644,7 +2643,7 @@
       "regionGroup": "欧美",
       "language": "",
       "rating": 8,
-      "ratingCount": 5034,
+      "ratingCount": 5131,
       "directors": [
         "保罗·卡梅隆"
       ],
@@ -2682,7 +2681,7 @@
       "regionGroup": "日韩",
       "language": "",
       "rating": 8,
-      "ratingCount": 10773,
+      "ratingCount": 10823,
       "directors": [
         "尹英彬"
       ],
@@ -2719,7 +2718,7 @@
       "regionGroup": "华语",
       "language": "",
       "rating": 8,
-      "ratingCount": 8089,
+      "ratingCount": 8212,
       "directors": [
         "王海龙"
       ],
@@ -2756,7 +2755,7 @@
       "regionGroup": "华语",
       "language": "",
       "rating": 8,
-      "ratingCount": 9540,
+      "ratingCount": 9545,
       "directors": [
         "刘宇宁",
         "金靖"
@@ -2798,7 +2797,7 @@
       "regionGroup": "欧美",
       "language": "",
       "rating": 7.9,
-      "ratingCount": 14241,
+      "ratingCount": 14261,
       "directors": [
         "詹姆斯·霍斯",
         "斯蒂芬·威廉姆斯"
@@ -2838,7 +2837,7 @@
       "regionGroup": "欧美",
       "language": "",
       "rating": 7.8,
-      "ratingCount": 274061,
+      "ratingCount": 274255,
       "directors": [
         "查德·斯塔赫斯基"
       ],
@@ -2877,7 +2876,7 @@
       "regionGroup": "华语",
       "language": "",
       "rating": 7.8,
-      "ratingCount": 39519,
+      "ratingCount": 40004,
       "directors": [
         "姚婷婷"
       ],
@@ -2915,7 +2914,7 @@
       "regionGroup": "华语",
       "language": "",
       "rating": 7.8,
-      "ratingCount": 66866,
+      "ratingCount": 67167,
       "directors": [
         "于淼"
       ],
@@ -2953,7 +2952,7 @@
       "regionGroup": "欧美",
       "language": "",
       "rating": 7.8,
-      "ratingCount": 14713,
+      "ratingCount": 14779,
       "directors": [
         "迈克·弗拉纳根",
         "阿克塞尔·卡罗琳"
@@ -2991,7 +2990,7 @@
       "regionGroup": "日韩",
       "language": "",
       "rating": 7.7,
-      "ratingCount": 6600,
+      "ratingCount": 6746,
       "directors": [
         "滨口龙介"
       ],
@@ -3029,7 +3028,7 @@
       "regionGroup": "欧美",
       "language": "",
       "rating": 7.6,
-      "ratingCount": 304513,
+      "ratingCount": 304745,
       "directors": [
         "库里·巴克"
       ],
@@ -3068,7 +3067,7 @@
       "regionGroup": "欧美",
       "language": "",
       "rating": 7.6,
-      "ratingCount": 6129,
+      "ratingCount": 6131,
       "directors": [
         "山姆·希尔",
         "加里·弗莱德"
@@ -3106,7 +3105,7 @@
       "regionGroup": "华语",
       "language": "",
       "rating": 7.6,
-      "ratingCount": 8111,
+      "ratingCount": 8115,
       "directors": [
         "周涛",
         "袁咏仪"
@@ -3143,7 +3142,7 @@
       "regionGroup": "华语",
       "language": "",
       "rating": 7.5,
-      "ratingCount": 24771,
+      "ratingCount": 24995,
       "directors": [
         "刘文普"
       ],
@@ -3181,7 +3180,7 @@
       "regionGroup": "欧美",
       "language": "",
       "rating": 7.5,
-      "ratingCount": 9667,
+      "ratingCount": 9792,
       "directors": [
         "乔纳坦·埃茨勒"
       ],
@@ -3220,7 +3219,7 @@
       "regionGroup": "华语",
       "language": "",
       "rating": 7.5,
-      "ratingCount": 150263,
+      "ratingCount": 150565,
       "directors": [
         "黄颖湘",
         "陈丹"
@@ -3259,7 +3258,7 @@
       "regionGroup": "华语",
       "language": "",
       "rating": 7.5,
-      "ratingCount": 103287,
+      "ratingCount": 103484,
       "directors": [
         "杨阳"
       ],
@@ -3299,7 +3298,7 @@
       "regionGroup": "欧美",
       "language": "",
       "rating": 7.4,
-      "ratingCount": 24547,
+      "ratingCount": 24639,
       "directors": [
         "麦克思·温克勒"
       ],
@@ -3336,7 +3335,7 @@
       "regionGroup": "欧美",
       "language": "",
       "rating": 7.4,
-      "ratingCount": 9547,
+      "ratingCount": 9561,
       "directors": [
         "梅根·帕克"
       ],
@@ -3373,7 +3372,7 @@
       "regionGroup": "华语",
       "language": "",
       "rating": 7.4,
-      "ratingCount": 15538,
+      "ratingCount": 15555,
       "directors": [
         "孙红雷",
         "李乃文"
@@ -3410,7 +3409,7 @@
       "regionGroup": "欧美",
       "language": "",
       "rating": 7.3,
-      "ratingCount": 236226,
+      "ratingCount": 237289,
       "directors": [
         "扎克·克雷格"
       ],
@@ -3450,7 +3449,7 @@
       "regionGroup": "欧美",
       "language": "",
       "rating": 7.3,
-      "ratingCount": 28762,
+      "ratingCount": 29353,
       "directors": [
         "大卫·阿耶"
       ],
@@ -3490,7 +3489,7 @@
       "regionGroup": "欧美",
       "language": "",
       "rating": 7.3,
-      "ratingCount": 33348,
+      "ratingCount": 33748,
       "directors": [
         "加斯帕·凯利"
       ],
@@ -3528,7 +3527,7 @@
       "regionGroup": "华语",
       "language": "",
       "rating": 7.3,
-      "ratingCount": 55678,
+      "ratingCount": 55804,
       "directors": [
         "杨磊"
       ],
@@ -3565,7 +3564,7 @@
       "regionGroup": "华语",
       "language": "",
       "rating": 7.3,
-      "ratingCount": 45167,
+      "ratingCount": 45187,
       "directors": [
         "沈严",
         "李江明"
@@ -3603,7 +3602,7 @@
       "regionGroup": "华语",
       "language": "",
       "rating": 7.3,
-      "ratingCount": 17471,
+      "ratingCount": 17494,
       "directors": [
         "贾思皓"
       ],
