@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-14T10:29:01.314Z",
+  "updatedAt": "2026-11-15T00:32:07.043Z",
   "source": "douban-mirror",
   "minRating": 7.3,
   "curator": {
@@ -31,7 +31,7 @@
       "regionGroup": "欧美",
       "language": "",
       "rating": 9.7,
-      "ratingCount": 3364579,
+      "ratingCount": 3364787,
       "directors": [
         "弗兰克·德拉邦特"
       ],
@@ -71,7 +71,7 @@
       "regionGroup": "华语",
       "language": "",
       "rating": 9.6,
-      "ratingCount": 2465588,
+      "ratingCount": 2465759,
       "directors": [
         "陈凯歌"
       ],
@@ -111,7 +111,7 @@
       "regionGroup": "欧美",
       "language": "",
       "rating": 9.6,
-      "ratingCount": 769098,
+      "ratingCount": 769207,
       "directors": [
         "比利·怀尔德"
       ],
@@ -150,7 +150,7 @@
       "regionGroup": "欧美",
       "language": "",
       "rating": 9.6,
-      "ratingCount": 17728,
+      "ratingCount": 17764,
       "directors": [
         "杰里米·克拉克森",
         "凯勒布·库珀"
@@ -187,7 +187,7 @@
       "regionGroup": "欧美",
       "language": "",
       "rating": 9.5,
-      "ratingCount": 2543169,
+      "ratingCount": 2543338,
       "directors": [
         "詹姆斯·卡梅隆"
       ],
@@ -225,7 +225,7 @@
       "regionGroup": "欧美",
       "language": "",
       "rating": 9.5,
-      "ratingCount": 2468694,
+      "ratingCount": 2468835,
       "directors": [
         "罗伯特·泽米吉斯"
       ],
@@ -265,7 +265,7 @@
       "regionGroup": "欧美",
       "language": "",
       "rating": 9.5,
-      "ratingCount": 1505442,
+      "ratingCount": 1505521,
       "directors": [
         "罗伯托·贝尼尼"
       ],
@@ -304,7 +304,7 @@
       "regionGroup": "欧美",
       "language": "",
       "rating": 9.5,
-      "ratingCount": 1265977,
+      "ratingCount": 1266033,
       "directors": [
         "史蒂文·斯皮尔伯格"
       ],
@@ -343,7 +343,7 @@
       "regionGroup": "日韩",
       "language": "",
       "rating": 9.4,
-      "ratingCount": 2581625,
+      "ratingCount": 2581797,
       "directors": [
         "宫崎骏"
       ],
@@ -382,7 +382,7 @@
       "regionGroup": "欧美",
       "language": "",
       "rating": 9.4,
-      "ratingCount": 2240082,
+      "ratingCount": 2240275,
       "directors": [
         "克里斯托弗·诺兰"
       ],
@@ -421,7 +421,7 @@
       "regionGroup": "欧美",
       "language": "",
       "rating": 9.4,
-      "ratingCount": 2587081,
+      "ratingCount": 2587200,
       "directors": [
         "吕克·贝松"
       ],
@@ -461,7 +461,7 @@
       "regionGroup": "欧美",
       "language": "",
       "rating": 9.4,
-      "ratingCount": 2368251,
+      "ratingCount": 2368412,
       "directors": [
         "克里斯托弗·诺兰"
       ],
@@ -499,7 +499,7 @@
       "regionGroup": "欧美",
       "language": "",
       "rating": 9.4,
-      "ratingCount": 2063142,
+      "ratingCount": 2063303,
       "directors": [
         "彼得·威尔"
       ],
@@ -536,7 +536,7 @@
       "regionGroup": "欧美",
       "language": "",
       "rating": 9.4,
-      "ratingCount": 1564949,
+      "ratingCount": 1565032,
       "directors": [
         "拉斯·霍尔斯道姆"
       ],
@@ -573,7 +573,7 @@
       "regionGroup": "欧美",
       "language": "",
       "rating": 9.4,
-      "ratingCount": 593024,
+      "ratingCount": 593098,
       "directors": [
         "西德尼·吕美特"
       ],
@@ -611,7 +611,7 @@
       "regionGroup": "欧美",
       "language": "",
       "rating": 9.3,
-      "ratingCount": 1909547,
+      "ratingCount": 1910336,
       "directors": [
         "朱塞佩·托纳多雷"
       ],
@@ -651,7 +651,7 @@
       "regionGroup": "欧美",
       "language": "",
       "rating": 9.3,
-      "ratingCount": 2369322,
+      "ratingCount": 2369508,
       "directors": [
         "拜伦·霍华德",
         "瑞奇·摩尔"
@@ -691,7 +691,7 @@
       "regionGroup": "欧美",
       "language": "",
       "rating": 9.3,
-      "ratingCount": 1531767,
+      "ratingCount": 1531864,
       "directors": [
         "安德鲁·斯坦顿"
       ],
@@ -729,7 +729,7 @@
       "regionGroup": "欧美",
       "language": "",
       "rating": 9.3,
-      "ratingCount": 1497833,
+      "ratingCount": 1497922,
       "directors": [
         "克里斯托夫·巴哈蒂"
       ],
@@ -768,7 +768,7 @@
       "regionGroup": "华语",
       "language": "",
       "rating": 9.3,
-      "ratingCount": 1595428,
+      "ratingCount": 1595541,
       "directors": [
         "刘伟强",
         "麦兆辉"
@@ -806,7 +806,7 @@
       "regionGroup": "日韩",
       "language": "",
       "rating": 9.3,
-      "ratingCount": 1050516,
+      "ratingCount": 1050569,
       "directors": [
         "黄东赫"
       ],
@@ -844,7 +844,7 @@
       "regionGroup": "欧美",
       "language": "",
       "rating": 9.3,
-      "ratingCount": 1321447,
+      "ratingCount": 1321527,
       "directors": [
         "奥利维埃·纳卡什",
         "埃里克·托莱达诺"
@@ -883,7 +883,7 @@
       "regionGroup": "欧美",
       "language": "",
       "rating": 9.3,
-      "ratingCount": 1129604,
+      "ratingCount": 1129678,
       "directors": [
         "弗朗西斯·福特·科波拉"
       ],
@@ -922,7 +922,7 @@
       "regionGroup": "华语",
       "language": "",
       "rating": 9.3,
-      "ratingCount": 1049877,
+      "ratingCount": 1049966,
       "directors": [
         "贝纳尔多·贝托鲁奇"
       ],
@@ -961,7 +961,7 @@
       "regionGroup": "华语",
       "language": "",
       "rating": 9.3,
-      "ratingCount": 989755,
+      "ratingCount": 989832,
       "directors": [
         "张艺谋"
       ],
@@ -1001,7 +1001,7 @@
       "regionGroup": "欧美",
       "language": "",
       "rating": 9.3,
-      "ratingCount": 928563,
+      "ratingCount": 928642,
       "directors": [
         "彼得·杰克逊"
       ],
@@ -1041,7 +1041,7 @@
       "regionGroup": "欧美",
       "language": "",
       "rating": 9.3,
-      "ratingCount": 813710,
+      "ratingCount": 813789,
       "directors": [
         "维克多·弗莱明",
         "乔治·库克"
@@ -1081,7 +1081,7 @@
       "regionGroup": "欧美",
       "language": "",
       "rating": 9.3,
-      "ratingCount": 809311,
+      "ratingCount": 809414,
       "directors": [
         "阿兰·葛斯彭纳"
       ],
@@ -1118,7 +1118,7 @@
       "regionGroup": "日韩",
       "language": "",
       "rating": 9.3,
-      "ratingCount": 789586,
+      "ratingCount": 789636,
       "directors": [
         "李濬益"
       ],
@@ -1156,7 +1156,7 @@
       "regionGroup": "华语",
       "language": "",
       "rating": 9.3,
-      "ratingCount": 730210,
+      "ratingCount": 730262,
       "directors": [
         "姜文"
       ],
@@ -1196,7 +1196,7 @@
       "regionGroup": "欧美",
       "language": "",
       "rating": 9.3,
-      "ratingCount": 765273,
+      "ratingCount": 765330,
       "directors": [
         "罗曼·波兰斯基"
       ],
@@ -1236,7 +1236,7 @@
       "regionGroup": "其他",
       "language": "",
       "rating": 9.2,
-      "ratingCount": 2111253,
+      "ratingCount": 2111369,
       "directors": [
         "拉吉库马尔·希拉尼"
       ],
@@ -1276,7 +1276,7 @@
       "regionGroup": "华语",
       "language": "",
       "rating": 9.2,
-      "ratingCount": 1736994,
+      "ratingCount": 1737082,
       "directors": [
         "刘镇伟"
       ],
@@ -1314,7 +1314,7 @@
       "regionGroup": "欧美",
       "language": "",
       "rating": 9.2,
-      "ratingCount": 1455613,
+      "ratingCount": 1455731,
       "directors": [
         "克里斯·哥伦布"
       ],
@@ -1353,7 +1353,7 @@
       "regionGroup": "日韩",
       "language": "",
       "rating": 9.2,
-      "ratingCount": 1433187,
+      "ratingCount": 1433272,
       "directors": [
         "宫崎骏"
       ],
@@ -1394,7 +1394,7 @@
       "regionGroup": "欧美",
       "language": "",
       "rating": 9.2,
-      "ratingCount": 1218590,
+      "ratingCount": 1218672,
       "directors": [
         "克里斯托弗·诺兰"
       ],
@@ -1433,7 +1433,7 @@
       "regionGroup": "日韩",
       "language": "",
       "rating": 9.2,
-      "ratingCount": 1026380,
+      "ratingCount": 1026440,
       "directors": [
         "宫崎骏"
       ],
@@ -1470,7 +1470,7 @@
       "regionGroup": "欧美",
       "language": "",
       "rating": 9.2,
-      "ratingCount": 906948,
+      "ratingCount": 907027,
       "directors": [
         "彼得·威尔"
       ],
@@ -1510,7 +1510,7 @@
       "regionGroup": "欧美",
       "language": "",
       "rating": 9.2,
-      "ratingCount": 875178,
+      "ratingCount": 875248,
       "directors": [
         "彼得·杰克逊"
       ],
@@ -1550,7 +1550,7 @@
       "regionGroup": "欧美",
       "language": "",
       "rating": 9.1,
-      "ratingCount": 2038838,
+      "ratingCount": 2039031,
       "directors": [
         "李·昂克里奇",
         "阿德里安·莫利纳"
@@ -1590,7 +1590,7 @@
       "regionGroup": "欧美",
       "language": "",
       "rating": 9.1,
-      "ratingCount": 1713677,
+      "ratingCount": 1713758,
       "directors": [
         "加布里埃莱·穆奇诺"
       ],
@@ -1629,7 +1629,7 @@
       "regionGroup": "欧美",
       "language": "",
       "rating": 9.1,
-      "ratingCount": 2083504,
+      "ratingCount": 2083630,
       "directors": [
         "罗伯·莱纳"
       ],
@@ -1669,7 +1669,7 @@
       "regionGroup": "欧美",
       "language": "",
       "rating": 9.1,
-      "ratingCount": 1528261,
+      "ratingCount": 1528350,
       "directors": [
         "彼特·道格特",
         "鲍勃·彼德森"
@@ -1710,7 +1710,7 @@
       "regionGroup": "日韩",
       "language": "",
       "rating": 9.1,
-      "ratingCount": 1321531,
+      "ratingCount": 1321650,
       "directors": [
         "宫崎骏"
       ],
@@ -1749,7 +1749,7 @@
       "regionGroup": "欧美",
       "language": "",
       "rating": 9.1,
-      "ratingCount": 1238539,
+      "ratingCount": 1238656,
       "directors": [
         "史蒂文·斯皮尔伯格"
       ],
@@ -1788,7 +1788,7 @@
       "regionGroup": "华语",
       "language": "",
       "rating": 9.1,
-      "ratingCount": 1511402,
+      "ratingCount": 1511475,
       "directors": [
         "李安"
       ],
@@ -1826,7 +1826,7 @@
       "regionGroup": "欧美",
       "language": "",
       "rating": 9.1,
-      "ratingCount": 5115,
+      "ratingCount": 5201,
       "directors": [
         "布莱恩·派西维尔",
         "珍妮·帕顿"
@@ -1865,7 +1865,7 @@
       "regionGroup": "华语",
       "language": "",
       "rating": 9,
-      "ratingCount": 2390449,
+      "ratingCount": 2390573,
       "directors": [
         "文牧野"
       ],
@@ -1905,7 +1905,7 @@
       "regionGroup": "华语",
       "language": "",
       "rating": 9,
-      "ratingCount": 1950763,
+      "ratingCount": 1950868,
       "directors": [
         "姜文"
       ],
@@ -1945,7 +1945,7 @@
       "regionGroup": "其他",
       "language": "",
       "rating": 9,
-      "ratingCount": 1775081,
+      "ratingCount": 1775191,
       "directors": [
         "涅提·蒂瓦里"
       ],
@@ -1985,7 +1985,7 @@
       "regionGroup": "华语",
       "language": "",
       "rating": 9,
-      "ratingCount": 1390303,
+      "ratingCount": 1390367,
       "directors": [
         "刘镇伟"
       ],
@@ -2009,6 +2009,45 @@
       "platforms": []
     },
     {
+      "id": "db37806882",
+      "doubanId": "37806882",
+      "title": "我的有罪之人",
+      "originalTitle": "",
+      "type": "tv",
+      "genres": [
+        "剧情",
+        "喜剧",
+        "爱情"
+      ],
+      "year": 2026,
+      "region": "韩国",
+      "regionGroup": "日韩",
+      "language": "",
+      "rating": 9,
+      "ratingCount": 13865,
+      "directors": [
+        "朴丹熙"
+      ],
+      "casts": [
+        "任时完",
+        "薛仁雅"
+      ],
+      "duration": "",
+      "episodes": "",
+      "status": "",
+      "poster": "assets/posters/37806882.jpg",
+      "summary": "该剧改编自同名小说和网漫，讲述大韩民国首屈一指的企业财阀三世兼女秘书杀人事件的嫌疑人尹伊俊，和以比一般男性更优越的力量，特殊部队出身的警察姜在熙，女扮男装的浪漫喜剧。\n任时完饰演虽然是温室里长大的财阀三代，但也是杀人事件的嫌疑人尹伊俊一角，是一个四次元的角色。\n薛仁雅饰演女扮男装，伪装成尹伊俊的随行秘书兼警卫员就业，紧密调查他的Girl Crush铁壁女姜在熙一角。",
+      "highlights": "",
+      "audience": "",
+      "tag": "🏆 神作",
+      "listTag": "hot",
+      "curatorNote": "",
+      "series": "",
+      "wantCount": 0,
+      "oneLine": "",
+      "platforms": []
+    },
+    {
       "id": "db38397649",
       "doubanId": "38397649",
       "title": "孤单又灿烂的神：鬼怪十周年特辑",
@@ -2022,7 +2061,7 @@
       "regionGroup": "日韩",
       "language": "",
       "rating": 9,
-      "ratingCount": 6947,
+      "ratingCount": 6961,
       "directors": [
         "李应福"
       ],
@@ -2059,7 +2098,7 @@
       "regionGroup": "其他",
       "language": "",
       "rating": 8.9,
-      "ratingCount": 34935,
+      "ratingCount": 35382,
       "directors": [
         "萨拉·戈赫尔"
       ],
@@ -2100,7 +2139,7 @@
       "regionGroup": "华语",
       "language": "",
       "rating": 8.9,
-      "ratingCount": 1929256,
+      "ratingCount": 1929410,
       "directors": [
         "彼得·法雷里"
       ],
@@ -2124,45 +2163,6 @@
       "platforms": []
     },
     {
-      "id": "db37806882",
-      "doubanId": "37806882",
-      "title": "我的有罪之人",
-      "originalTitle": "",
-      "type": "tv",
-      "genres": [
-        "剧情",
-        "喜剧",
-        "爱情"
-      ],
-      "year": 2026,
-      "region": "韩国",
-      "regionGroup": "日韩",
-      "language": "",
-      "rating": 8.9,
-      "ratingCount": 12554,
-      "directors": [
-        "朴丹熙"
-      ],
-      "casts": [
-        "任时完",
-        "薛仁雅"
-      ],
-      "duration": "",
-      "episodes": "",
-      "status": "",
-      "poster": "assets/posters/37806882.jpg",
-      "summary": "该剧改编自同名小说和网漫，讲述大韩民国首屈一指的企业财阀三世兼女秘书杀人事件的嫌疑人尹伊俊，和以比一般男性更优越的力量，特殊部队出身的警察姜在熙，女扮男装的浪漫喜剧。\n任时完饰演虽然是温室里长大的财阀三代，但也是杀人事件的嫌疑人尹伊俊一角，是一个四次元的角色。\n薛仁雅饰演女扮男装，伪装成尹伊俊的随行秘书兼警卫员就业，紧密调查他的Girl Crush铁壁女姜在熙一角。",
-      "highlights": "",
-      "audience": "",
-      "tag": "⭐ 高分佳作",
-      "listTag": "hot",
-      "curatorNote": "",
-      "series": "",
-      "wantCount": 0,
-      "oneLine": "",
-      "platforms": []
-    },
-    {
       "id": "db38521299",
       "doubanId": "38521299",
       "title": "街头餐厅斗士",
@@ -2176,7 +2176,7 @@
       "regionGroup": "日韩",
       "language": "",
       "rating": 8.8,
-      "ratingCount": 5128,
+      "ratingCount": 5144,
       "directors": [
         "李连福",
         "金浩允"
@@ -2212,7 +2212,7 @@
       "regionGroup": "日韩",
       "language": "",
       "rating": 8.7,
-      "ratingCount": 47101,
+      "ratingCount": 51202,
       "directors": [
         "李沧东"
       ],
@@ -2251,7 +2251,7 @@
       "regionGroup": "欧美",
       "language": "",
       "rating": 8.7,
-      "ratingCount": 32163,
+      "ratingCount": 33509,
       "directors": [
         "哈维尔·安布罗希",
         "哈维尔·卡尔沃"
@@ -2292,7 +2292,7 @@
       "regionGroup": "欧美",
       "language": "",
       "rating": 8.7,
-      "ratingCount": 13191,
+      "ratingCount": 13807,
       "directors": [
         "克里斯托弗·J·伯恩",
         "甘加·蒙泰罗"
@@ -2330,7 +2330,7 @@
       "regionGroup": "华语",
       "language": "",
       "rating": 8.7,
-      "ratingCount": 45792,
+      "ratingCount": 46942,
       "directors": [
         "赵文海"
       ],
@@ -2370,7 +2370,7 @@
       "regionGroup": "欧美",
       "language": "",
       "rating": 8.6,
-      "ratingCount": 585119,
+      "ratingCount": 586693,
       "directors": [
         "克里斯托弗·诺兰"
       ],
@@ -2410,7 +2410,7 @@
       "regionGroup": "华语",
       "language": "",
       "rating": 8.6,
-      "ratingCount": 17163,
+      "ratingCount": 17816,
       "directors": [
         "张永新"
       ],
@@ -2450,7 +2450,7 @@
       "regionGroup": "华语",
       "language": "",
       "rating": 8.5,
-      "ratingCount": 246559,
+      "ratingCount": 246595,
       "directors": [
         "程小东"
       ],
@@ -2490,7 +2490,7 @@
       "regionGroup": "欧美",
       "language": "",
       "rating": 8.4,
-      "ratingCount": 11749,
+      "ratingCount": 11795,
       "directors": [
         "盖·里奇"
       ],
@@ -2503,43 +2503,6 @@
       "status": "",
       "poster": "assets/posters/37005231.jpg",
       "summary": "丛林要不断扩张！\n艾迪公爵（西奥·詹姆斯 饰）带着全新的野心登场。为了让帝国版图持续成长，他将触角延伸到国界之外，杠上意大利黑手党。",
-      "highlights": "",
-      "audience": "",
-      "tag": "📺 热播剧集",
-      "listTag": "hot",
-      "curatorNote": "",
-      "series": "",
-      "wantCount": 0,
-      "oneLine": "",
-      "platforms": []
-    },
-    {
-      "id": "db37235560",
-      "doubanId": "37235560",
-      "title": "Doctor X：白色黑手党时代",
-      "originalTitle": "",
-      "type": "tv",
-      "genres": [
-        "剧情"
-      ],
-      "year": 2026,
-      "region": "韩国",
-      "regionGroup": "日韩",
-      "language": "",
-      "rating": 8.3,
-      "ratingCount": 12204,
-      "directors": [
-        "李正林"
-      ],
-      "casts": [
-        "金智媛",
-        "李姃垠"
-      ],
-      "duration": "",
-      "episodes": "",
-      "status": "",
-      "poster": "assets/posters/37235560.jpg",
-      "summary": "在一间充斥着自负与腐败的医院里，一名神秘却医术高超的外科医生现身。她不顾重重阻挠，接手一个又一个看似无解的病例。\n该剧改编自日本电视剧《X医生：外科医生大门未知子》。",
       "highlights": "",
       "audience": "",
       "tag": "📺 热播剧集",
@@ -2566,7 +2529,7 @@
       "regionGroup": "欧美",
       "language": "",
       "rating": 8.3,
-      "ratingCount": 28317,
+      "ratingCount": 28554,
       "directors": [
         "丽贝卡·加特沃德"
       ],
@@ -2604,7 +2567,7 @@
       "regionGroup": "日韩",
       "language": "",
       "rating": 8.3,
-      "ratingCount": 6236,
+      "ratingCount": 6416,
       "directors": [
         "金子文纪",
         "坂上卓哉"
@@ -2631,6 +2594,43 @@
       "platforms": []
     },
     {
+      "id": "db37235560",
+      "doubanId": "37235560",
+      "title": "Doctor X：白色黑手党时代",
+      "originalTitle": "",
+      "type": "tv",
+      "genres": [
+        "剧情"
+      ],
+      "year": 2026,
+      "region": "韩国",
+      "regionGroup": "日韩",
+      "language": "",
+      "rating": 8.2,
+      "ratingCount": 12882,
+      "directors": [
+        "李正林"
+      ],
+      "casts": [
+        "金智媛",
+        "李姃垠"
+      ],
+      "duration": "",
+      "episodes": "",
+      "status": "",
+      "poster": "assets/posters/37235560.jpg",
+      "summary": "在一间充斥着自负与腐败的医院里，一名神秘却医术高超的外科医生现身。她不顾重重阻挠，接手一个又一个看似无解的病例。\n该剧改编自日本电视剧《X医生：外科医生大门未知子》。",
+      "highlights": "",
+      "audience": "",
+      "tag": "📺 热播剧集",
+      "listTag": "hot",
+      "curatorNote": "",
+      "series": "",
+      "wantCount": 0,
+      "oneLine": "",
+      "platforms": []
+    },
+    {
       "id": "db36675942",
       "doubanId": "36675942",
       "title": "小城良方",
@@ -2644,7 +2644,7 @@
       "regionGroup": "华语",
       "language": "",
       "rating": 8,
-      "ratingCount": 301221,
+      "ratingCount": 302140,
       "directors": [
         "张晓波"
       ],
@@ -2683,7 +2683,7 @@
       "regionGroup": "欧美",
       "language": "",
       "rating": 8,
-      "ratingCount": 5612,
+      "ratingCount": 5693,
       "directors": [
         "保罗·卡梅隆"
       ],
@@ -2721,7 +2721,7 @@
       "regionGroup": "日韩",
       "language": "",
       "rating": 8,
-      "ratingCount": 11213,
+      "ratingCount": 11282,
       "directors": [
         "尹英彬"
       ],
@@ -2758,7 +2758,7 @@
       "regionGroup": "华语",
       "language": "",
       "rating": 8,
-      "ratingCount": 9337,
+      "ratingCount": 9564,
       "directors": [
         "王海龙"
       ],
@@ -2795,7 +2795,7 @@
       "regionGroup": "华语",
       "language": "",
       "rating": 8,
-      "ratingCount": 9571,
+      "ratingCount": 9577,
       "directors": [
         "刘宇宁",
         "金靖"
@@ -2837,7 +2837,7 @@
       "regionGroup": "欧美",
       "language": "",
       "rating": 7.9,
-      "ratingCount": 14438,
+      "ratingCount": 14478,
       "directors": [
         "詹姆斯·霍斯",
         "斯蒂芬·威廉姆斯"
@@ -2877,7 +2877,7 @@
       "regionGroup": "欧美",
       "language": "",
       "rating": 7.8,
-      "ratingCount": 275579,
+      "ratingCount": 275898,
       "directors": [
         "查德·斯塔赫斯基"
       ],
@@ -2916,7 +2916,7 @@
       "regionGroup": "华语",
       "language": "",
       "rating": 7.8,
-      "ratingCount": 43361,
+      "ratingCount": 43906,
       "directors": [
         "姚婷婷"
       ],
@@ -2954,7 +2954,7 @@
       "regionGroup": "华语",
       "language": "",
       "rating": 7.8,
-      "ratingCount": 69103,
+      "ratingCount": 69481,
       "directors": [
         "于淼"
       ],
@@ -2992,7 +2992,7 @@
       "regionGroup": "欧美",
       "language": "",
       "rating": 7.8,
-      "ratingCount": 15295,
+      "ratingCount": 15384,
       "directors": [
         "迈克·弗拉纳根",
         "阿克塞尔·卡罗琳"
@@ -3030,7 +3030,7 @@
       "regionGroup": "日韩",
       "language": "",
       "rating": 7.7,
-      "ratingCount": 7758,
+      "ratingCount": 7996,
       "directors": [
         "滨口龙介"
       ],
@@ -3068,7 +3068,7 @@
       "regionGroup": "日韩",
       "language": "",
       "rating": 7.7,
-      "ratingCount": 6106,
+      "ratingCount": 6283,
       "directors": [
         "安畔锡"
       ],
@@ -3106,7 +3106,7 @@
       "regionGroup": "欧美",
       "language": "",
       "rating": 7.6,
-      "ratingCount": 306352,
+      "ratingCount": 306758,
       "directors": [
         "库里·巴克"
       ],
@@ -3131,45 +3131,6 @@
       "platforms": []
     },
     {
-      "id": "db37067733",
-      "doubanId": "37067733",
-      "title": "侠探杰克 第四季",
-      "originalTitle": "",
-      "type": "tv",
-      "genres": [
-        "剧情",
-        "动作"
-      ],
-      "year": 2026,
-      "region": "美国",
-      "regionGroup": "欧美",
-      "language": "",
-      "rating": 7.6,
-      "ratingCount": 6192,
-      "directors": [
-        "山姆·希尔",
-        "加里·弗莱德"
-      ],
-      "casts": [
-        "阿兰·里奇森",
-        "安君"
-      ],
-      "duration": "",
-      "episodes": "",
-      "status": "",
-      "poster": "assets/posters/37067733.jpg",
-      "summary": "Reacher has been renewed for a fourth season at Prime Video, even though Season 3 won’t debut until next year.",
-      "highlights": "",
-      "audience": "",
-      "tag": "📺 热播剧集",
-      "listTag": "hot",
-      "curatorNote": "",
-      "series": "",
-      "wantCount": 0,
-      "oneLine": "",
-      "platforms": []
-    },
-    {
       "id": "db36623663",
       "doubanId": "36623663",
       "title": "害群之马",
@@ -3186,7 +3147,7 @@
       "regionGroup": "欧美",
       "language": "",
       "rating": 7.5,
-      "ratingCount": 10631,
+      "ratingCount": 10848,
       "directors": [
         "乔纳坦·埃茨勒"
       ],
@@ -3225,7 +3186,7 @@
       "regionGroup": "华语",
       "language": "",
       "rating": 7.5,
-      "ratingCount": 152791,
+      "ratingCount": 153131,
       "directors": [
         "黄颖湘",
         "陈丹"
@@ -3264,7 +3225,7 @@
       "regionGroup": "华语",
       "language": "",
       "rating": 7.5,
-      "ratingCount": 104734,
+      "ratingCount": 104926,
       "directors": [
         "杨阳"
       ],
@@ -3277,46 +3238,6 @@
       "status": "",
       "poster": "assets/posters/37042229.jpg",
       "summary": "多年前，记者沈乐水用摄像机记录了老松江啤酒厂的厂工生活，这里的故事，像一杯久藏的啤酒, 酝酿着复杂的情感，也氤氲着一个名叫刘雪梅的女人的死亡之谜。啤酒厂曾是这座城市的骄傲，没落多年后，却成为众多命案的舞台。刘雪梅的生与死，紧密缠绕在一个被野心和贪婪驱使的阴谋之中。每一个人都如同棋子，被无情地操纵和牺牲。真相总是隐藏在最不起眼的角落。一个潜伏多年的幽灵，策划着一场血色的复仇 。他的怒火和绝望，化作连环杀人案的阴影，笼罩着松江。命运的轮回终于在一起突如其来又似乎源自宿命的意外中到达终点。沈乐水也再次扛起摄像机，记录下这其中跨越了时间的人性挣扎。",
-      "highlights": "",
-      "audience": "",
-      "tag": "📺 热播剧集",
-      "listTag": "hot",
-      "curatorNote": "",
-      "series": "",
-      "wantCount": 0,
-      "oneLine": "",
-      "platforms": []
-    },
-    {
-      "id": "db37413245",
-      "doubanId": "37413245",
-      "title": "怪物：丽兹·波顿的故事",
-      "originalTitle": "",
-      "type": "tv",
-      "genres": [
-        "剧情",
-        "惊悚",
-        "传记",
-        "犯罪"
-      ],
-      "year": 2026,
-      "region": "美国",
-      "regionGroup": "欧美",
-      "language": "",
-      "rating": 7.4,
-      "ratingCount": 25307,
-      "directors": [
-        "麦克思·温克勒"
-      ],
-      "casts": [
-        "艾拉·比蒂",
-        "查理·汉纳姆"
-      ],
-      "duration": "",
-      "episodes": "",
-      "status": "",
-      "poster": "assets/posters/37413245.jpg",
-      "summary": "本季将聚焦丽兹·波顿和一起著名的血腥杀人案，“鹅妈妈童谣”里《丽兹波顿拿起斧头》所渲染的：“丽兹波顿拿起斧头/砍了她爸爸四十下/当她意识到自己做了什么/她砍了她妈妈四十一下。”\n波顿居住在19世纪的美国马萨诸塞州，1892年，时年33岁的她被控在家中用斧头谋杀了父亲和继母，场面血腥，而最终她被陪审团认定没有施行此案的体力和头脑，被宣判无罪。这起杀人案件和其判定引发了极大关注，在美国流行文化中也有重要地位，已多次被改编影视。",
       "highlights": "",
       "audience": "",
       "tag": "📺 热播剧集",
@@ -3341,7 +3262,7 @@
       "regionGroup": "华语",
       "language": "",
       "rating": 7.4,
-      "ratingCount": 15635,
+      "ratingCount": 15652,
       "directors": [
         "孙红雷",
         "李乃文"
@@ -3378,7 +3299,7 @@
       "regionGroup": "欧美",
       "language": "",
       "rating": 7.3,
-      "ratingCount": 243755,
+      "ratingCount": 245460,
       "directors": [
         "扎克·克雷格"
       ],
@@ -3419,7 +3340,7 @@
       "regionGroup": "欧美",
       "language": "",
       "rating": 7.3,
-      "ratingCount": 32456,
+      "ratingCount": 33067,
       "directors": [
         "大卫·阿耶"
       ],
@@ -3458,7 +3379,7 @@
       "regionGroup": "华语",
       "language": "",
       "rating": 7.3,
-      "ratingCount": 56967,
+      "ratingCount": 57114,
       "directors": [
         "杨磊"
       ],
@@ -3471,6 +3392,46 @@
       "status": "",
       "poster": "assets/posters/37297001.jpg",
       "summary": "上官诚明全家惨遭天相派设局灭门，他化名潜伏，以牙还牙，以眼还眼，联手身陷泥淖却势要逆天改命的江飞燕，用连环骗局反噬仇敌，一路揭露骗术黑幕，最终瓦解天相派，解救受控者，惩恶扬善终彰善念。\n改编自易之小说《我是个算命先生》。",
+      "highlights": "",
+      "audience": "",
+      "tag": "📺 热播剧集",
+      "listTag": "hot",
+      "curatorNote": "",
+      "series": "",
+      "wantCount": 0,
+      "oneLine": "",
+      "platforms": []
+    },
+    {
+      "id": "db37413245",
+      "doubanId": "37413245",
+      "title": "怪物：丽兹·波顿的故事",
+      "originalTitle": "",
+      "type": "tv",
+      "genres": [
+        "剧情",
+        "惊悚",
+        "传记",
+        "犯罪"
+      ],
+      "year": 2026,
+      "region": "美国",
+      "regionGroup": "欧美",
+      "language": "",
+      "rating": 7.3,
+      "ratingCount": 25425,
+      "directors": [
+        "麦克思·温克勒"
+      ],
+      "casts": [
+        "艾拉·比蒂",
+        "查理·汉纳姆"
+      ],
+      "duration": "",
+      "episodes": "",
+      "status": "",
+      "poster": "assets/posters/37413245.jpg",
+      "summary": "本季将聚焦丽兹·波顿和一起著名的血腥杀人案，“鹅妈妈童谣”里《丽兹波顿拿起斧头》所渲染的：“丽兹波顿拿起斧头/砍了她爸爸四十下/当她意识到自己做了什么/她砍了她妈妈四十一下。”\n波顿居住在19世纪的美国马萨诸塞州，1892年，时年33岁的她被控在家中用斧头谋杀了父亲和继母，场面血腥，而最终她被陪审团认定没有施行此案的体力和头脑，被宣判无罪。这起杀人案件和其判定引发了极大关注，在美国流行文化中也有重要地位，已多次被改编影视。",
       "highlights": "",
       "audience": "",
       "tag": "📺 热播剧集",
@@ -3495,7 +3456,7 @@
       "regionGroup": "华语",
       "language": "",
       "rating": 7.3,
-      "ratingCount": 45353,
+      "ratingCount": 45386,
       "directors": [
         "沈严",
         "李江明"
@@ -3533,7 +3494,7 @@
       "regionGroup": "华语",
       "language": "",
       "rating": 7.3,
-      "ratingCount": 17622,
+      "ratingCount": 17642,
       "directors": [
         "贾思皓"
       ],
